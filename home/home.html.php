@@ -3,7 +3,7 @@
     
     <main>
     
-        <h1>This is the home page.</h1>
+        <h1>This is the home page. Set up and ready for development.</h1>
     
     </main>
     
