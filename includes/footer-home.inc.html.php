@@ -25,7 +25,9 @@
         [ placeholder for weather feed ]
     </article>
 
-    <small>&copy 2020 Ace in the Hole Multisport Events<br>Designed and Developed by Ellyn Michelle</small>
+    <small>
+        <p>&copy; 2020 Ace in the Hole Multisport Events<br>Designed and Developed by Ellyn Michelle</p>
+    </small>
 
 </footer>
 

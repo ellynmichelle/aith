@@ -23,13 +23,27 @@ html {
 body {
   font-family: 'Nunito', sans-serif;
 }
+body main,
+body footer {
+  padding: 0 2rem;
+}
 body h1,
 body h2 {
   font-family: 'Jost', sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
 }
+body h1 {
+  font-size: 1.5rem;
+}
+body h2 {
+  font-size: 1.25rem;
+}
+body img {
+  width: 30%;
+}
 body header {
+  border-bottom: 1px solid #342e2e;
   height: 100vh;
   width: 100vw;
 }
@@ -55,8 +69,30 @@ body nav i {
 body nav ul {
   padding-left: 1.25rem;
 }
-img {
-  width: 10%;
+body footer {
+  border-top: 1px solid #342e2e;
+  padding-top: 4rem;
+}
+body footer article {
+  padding-bottom: 2.5rem;
+}
+body footer article h1,
+body footer article h2 {
+  padding-bottom: 1rem;
+}
+body footer article img {
+  padding-right: 1rem;
+  width: 25%;
+}
+body footer article:last-of-type {
+  display: none;
+}
+body footer small {
+  font-size: .9rem;
+}
+body footer small p {
+  padding-top: 4rem;
+  text-align: center;
 }
 /* TABLET STYLESHEET
 
