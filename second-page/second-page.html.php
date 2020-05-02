@@ -3,7 +3,142 @@
     
     <main>
     
-        <h1>This is the second page with alternative header.</h1>
+        <h1>H1 Heading</h1>
+        <button>Call-to-Action</button>
+
+        <section>
+            <h2>H2 Heading</h2>
+            <button>Call-to-Action</button>
+            <article>
+                <img src="../images/placeholder-circle.svg" alt="">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </article>
+            <article>
+                <img src="../images/placeholder-circle.svg" alt="">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </article>
+            <article>
+                <img src="../images/placeholder-circle.svg" alt="">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </article>
+        </section>
+
+        <section>
+            <h2>H2 Heading</h2>
+            <button>Call-to-Action</button>
+            <article>
+                <img src="../images/placeholder-circle.svg" alt="">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </article>
+            <article>
+                <img src="../images/placeholder-circle.svg" alt="">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </article>
+            <article>
+                <img src="../images/placeholder-circle.svg" alt="">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </article>
+        </section>
+
+        <section>
+            <h2>H2 Heading</h2>
+            <button>Call-to-Action</button>
+            <article>
+                <img src="../images/placeholder-circle.svg" alt="">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </article>
+        </section>
+
+        <section>
+            <h2>H2 Heading</h2>
+            <button>Call-to-Action</button>
+            <article>
+                <img src="../images/placeholder-circle.svg" alt="">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </article>
+        </section>
+
+        <section>
+            <h2>H2 Heading</h2>
+            <button>Call-to-Action</button>
+            <article>
+                <img src="../images/placeholder-circle.svg" alt="">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </article>
+        </section>
+
+        <section>
+            <h2>H2 Heading</h2>
+            <button>Call-to-Action</button>
+            <article>
+                <img src="../images/placeholder-circle.svg" alt="">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </article>
+        </section>
+
+        <section>
+            <h2>H2 Heading</h2>
+            <button>Call-to-Action</button>
+            <article>
+                <img src="../images/placeholder-circle.svg" alt="">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </article>
+        </section>
     
     </main>
     
