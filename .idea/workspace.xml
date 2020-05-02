@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="564e179e-a6ae-493e-bca2-f488f44295ea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/second-page/second-page.html.php" beforeDir="false" afterPath="$PROJECT_DIR$/second-page/second-page.html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third-page/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/third-page/third-page.html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/footer.inc.html.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer.inc.html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/nav.inc.html.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/nav.inc.html.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +31,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/includes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/includes" />
       <recent name="$PROJECT_DIR$/second-page" />
     </key>
@@ -58,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588283922332</updated>
       <workItem from="1588283923793" duration="878000" />
-      <workItem from="1588435894853" duration="2849000" />
+      <workItem from="1588435894853" duration="3310000" />
     </task>
     <servers />
   </component>

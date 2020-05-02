@@ -17,8 +17,8 @@
 
     <article>
         <h2>Connect</h2>
-        <a href=""><img src="images/placeholder-circle.svg" alt=""></a>
-        <a href=""><img src="images/placeholder-circle.svg" alt=""></a>
+        <a href=""><img src="../images/placeholder-circle.svg" alt=""></a>
+        <a href=""><img src="../images/placeholder-circle.svg" alt=""></a>
     </article>
 
     <article>
