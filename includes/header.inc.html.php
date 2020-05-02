@@ -27,6 +27,8 @@ Programmer: Ellyn Culmsee
     
     <header>
         
-        <h1>This is the header.</h1>
+        <h1>Ace in the Hole<br>Multisport Events</h1>
+
+        <p>Events for Every Body</p>
     
     </header>

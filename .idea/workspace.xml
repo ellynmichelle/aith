@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="564e179e-a6ae-493e-bca2-f488f44295ea" name="Default Changelist" comment="" />
+    <list default="true" id="564e179e-a6ae-493e-bca2-f488f44295ea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/home.html.php" beforeDir="false" afterPath="$PROJECT_DIR$/home/home.html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/footer-home.inc.html.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer-home.inc.html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/footer.inc.html.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer.inc.html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header-alt.inc.html.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header-alt.inc.html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header.inc.html.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.inc.html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.less" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +23,7 @@
     </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/template" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bHL9iTaEiK0umFPqObZAAtzdvM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -56,10 +66,17 @@
       <option name="presentableId" value="Default" />
       <updated>1588283922332</updated>
       <workItem from="1588283923793" duration="878000" />
+      <workItem from="1588435894853" duration="2196000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="518" y="270" key="com.intellij.ide.util.TipDialog" timestamp="1588435993569">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="518" y="270" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1588435993569" />
   </component>
 </project>

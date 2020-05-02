@@ -17,6 +17,9 @@ Programmer: Ellyn Culmsee
 */
 /* Parametric mixin for headings */
 /* MOBILE STYLESHEET */
+img {
+  width: 10%;
+}
 /* TABLET STYLESHEET
 
 The following CSS affects all screen sizes larger than 480 pixels wide. */
