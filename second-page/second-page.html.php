@@ -12,60 +12,28 @@
             <article>
                 <img src="../images/placeholder-circle.svg" alt="">
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
                 </ul>
             </article>
             <article>
                 <img src="../images/placeholder-circle.svg" alt="">
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
                 </ul>
             </article>
             <article>
                 <img src="../images/placeholder-circle.svg" alt="">
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </article>
-        </section>
-
-        <section>
-            <h2>H2 Heading</h2>
-            <button>Call-to-Action</button>
-            <article>
-                <img src="../images/placeholder-circle.svg" alt="">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </article>
-            <article>
-                <img src="../images/placeholder-circle.svg" alt="">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </article>
-            <article>
-                <img src="../images/placeholder-circle.svg" alt="">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
                 </ul>
             </article>
         </section>
@@ -76,10 +44,28 @@
             <article>
                 <img src="../images/placeholder-circle.svg" alt="">
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                </ul>
+            </article>
+            <article>
+                <img src="../images/placeholder-circle.svg" alt="">
+                <ul>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                </ul>
+            </article>
+            <article>
+                <img src="../images/placeholder-circle.svg" alt="">
+                <ul>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
                 </ul>
             </article>
         </section>
@@ -90,10 +76,10 @@
             <article>
                 <img src="../images/placeholder-circle.svg" alt="">
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
                 </ul>
             </article>
         </section>
@@ -104,10 +90,10 @@
             <article>
                 <img src="../images/placeholder-circle.svg" alt="">
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
                 </ul>
             </article>
         </section>
@@ -118,10 +104,10 @@
             <article>
                 <img src="../images/placeholder-circle.svg" alt="">
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
                 </ul>
             </article>
         </section>
@@ -132,10 +118,24 @@
             <article>
                 <img src="../images/placeholder-circle.svg" alt="">
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                </ul>
+            </article>
+        </section>
+
+        <section>
+            <h2>H2 Heading</h2>
+            <button>Call-to-Action</button>
+            <article>
+                <img src="../images/placeholder-circle.svg" alt="">
+                <ul>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
+                    <li>Lie on your belly and purr</li>
                 </ul>
             </article>
         </section>
