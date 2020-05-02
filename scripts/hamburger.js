@@ -23,22 +23,17 @@ Programmer: Ellyn Culmsee
 // Code for hamburger navigation.
 $(document).ready(function () {
 
-    alert("JavaScript working!");
-
     $(".navigation").hide();
     $(".fa-times").hide();
     $(".fa-bars").show();
-    $(".gradientBar").show();
     
     $(".fa-bars").on("click", function () {
        
         $(".navigation").slideToggle();
         
-        $(".fa-bars").fadeOut();
+        $(".fa-bars").hide();
         
         $(".fa-times").fadeIn();
-        
-        $(".gradientBar").hide();
         
     });
     
@@ -46,19 +41,15 @@ $(document).ready(function () {
         
         $(".navigation").slideToggle();
         
-        $(".fa-times").fadeOut();
+        $(".fa-times").hide();
         
         $(".fa-bars").fadeIn();
-        
-        $(".gradientBar").show();
         
     });
     
     $("li").on("click", function () {
         
         $(".navigation").slideToggle();
-        
-        $(".gradientBar").show();
         
     });
     
