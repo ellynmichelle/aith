@@ -1,9 +1,9 @@
 <?php define('BASE_URL', '/cas222/template/'); ?>
 
 <nav>
-    <p>[placeholder for bars icon]</p>
-    <p>[placeholder for times icon]</p>
-    <ul>
+    <p><i class="fas fa-bars"></i></p>
+    <p><i class="fas fa-times"></i></p>
+    <ul class="navigation">
         <li><a href="<?php echo BASE_URL; ?>">Home</a></li>
         <li><a href="<?php echo BASE_URL; ?>/second-page">Multisports Event</a></li>
         <li><a href="<?php echo BASE_URL; ?>/third-page">Register</a></li>

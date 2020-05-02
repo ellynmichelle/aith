@@ -32,7 +32,7 @@ $(document).ready(function () {
     
     $(".fa-bars").on("click", function () {
        
-        $(".navigation").fadeIn();
+        $(".navigation").slideToggle();
         
         $(".fa-bars").fadeOut();
         
@@ -44,7 +44,7 @@ $(document).ready(function () {
     
     $(".fa-times").on("click", function () {
         
-        $(".navigation").fadeOut();
+        $(".navigation").slideToggle();
         
         $(".fa-times").fadeOut();
         
@@ -56,7 +56,7 @@ $(document).ready(function () {
     
     $("li").on("click", function () {
         
-        $(".navigation").fadeOut();
+        $(".navigation").slideToggle();
         
         $(".gradientBar").show();
         
