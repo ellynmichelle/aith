@@ -130,7 +130,8 @@ body nav ul li:last-of-type {
   padding-bottom: 1rem;
 }
 body footer {
-  border-top: 1px solid #342e2e;
+  background-color: #f0f0ef;
+  color: #342e2e;
   padding-top: 4rem;
 }
 body footer article {
@@ -138,6 +139,7 @@ body footer article {
 }
 body footer article h1,
 body footer article h2 {
+  color: #a10219;
   padding-bottom: 1rem;
   text-align: left;
 }
@@ -153,6 +155,7 @@ body footer small {
   font-size: .75rem;
 }
 body footer small p {
+  color: #8c8a87;
   padding-top: 4rem;
   text-align: center;
 }
