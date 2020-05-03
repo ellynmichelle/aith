@@ -3,11 +3,11 @@
     
     <main>
     
-        <h1>H1 Heading</h1>
+        <h2>H2 Heading</h2>
         <button>Call-to-Action</button>
 
         <section>
-            <h2>H2 Heading</h2>
+            <h3>H3 Heading</h3>
             <button>Call-to-Action</button>
             <article>
                 <img src="../images/placeholder-circle.svg" alt="">
@@ -39,7 +39,7 @@
         </section>
 
         <section>
-            <h2>H2 Heading</h2>
+            <h3>H3 Heading</h3>
             <button>Call-to-Action</button>
             <article>
                 <img src="../images/placeholder-circle.svg" alt="">
@@ -71,7 +71,7 @@
         </section>
 
         <section>
-            <h2>H2 Heading</h2>
+            <h3>H3 Heading</h3>
             <button>Call-to-Action</button>
             <article>
                 <img src="../images/placeholder-circle.svg" alt="">
@@ -85,7 +85,7 @@
         </section>
 
         <section>
-            <h2>H2 Heading</h2>
+            <h3>H3 Heading</h3>
             <button>Call-to-Action</button>
             <article>
                 <img src="../images/placeholder-circle.svg" alt="">
@@ -99,7 +99,7 @@
         </section>
 
         <section>
-            <h2>H2 Heading</h2>
+            <h3>H3 Heading</h3>
             <button>Call-to-Action</button>
             <article>
                 <img src="../images/placeholder-circle.svg" alt="">
@@ -113,7 +113,7 @@
         </section>
 
         <section>
-            <h2>H2 Heading</h2>
+            <h3>H3 Heading</h3>
             <button>Call-to-Action</button>
             <article>
                 <img src="../images/placeholder-circle.svg" alt="">
@@ -127,7 +127,7 @@
         </section>
 
         <section>
-            <h2>H2 Heading</h2>
+            <h3>H3 Heading</h3>
             <button>Call-to-Action</button>
             <article>
                 <img src="../images/placeholder-circle.svg" alt="">

@@ -13,16 +13,16 @@ html {
     font-size: 18px;
 }
 
-/* UNIVERSALS, HEADER, NAV, FOOTER */
+/* UNIVERSALS, HEADER, ALT HEADER, NAV, FOOTER */
 body {
     font-family: 'Nunito', sans-serif;
     main, footer {
         padding: 0 2rem;
     }
-    h1, h2 {
+    h1, h2, h3 {
         font-family: 'Jost', sans-serif;
-        font-size: 1.5rem;
         font-weight: 700;
+        text-align: center;
     }
     img, button {
         display: block;
@@ -34,13 +34,18 @@ body {
     h2 {
         font-size: 1.25rem;
     }
+    button {
+        background-color: @greyColor;
+        font-size: 1.25rem;
+        padding: .5rem 0;
+        width: 60%;
+    }
     header {
         border-bottom: 1px solid @darkColor;
         height: 100vh;
         width: 100vw;
         h1 {
             padding-top: 10rem;
-            text-align: center;
         }
         p {
             border-bottom: 1px solid @darkColor;
@@ -48,6 +53,15 @@ body {
             margin-top: 21rem;
             padding: 1.25rem 0;
             text-align: center;
+        }
+    }
+    .altHeader {
+        height: 10rem;
+        h1 {
+            padding-top: 4.5rem;
+        }
+        p {
+            display: none;
         }
     }
     nav {
@@ -91,9 +105,6 @@ body {
 /* HOME PAGE */
 body {
     main {
-        h2 {
-            text-align: center;
-        }
         section:nth-child(1), section:nth-child(2) {
             img:nth-child(2), img:nth-child(3) {
                 display: none;
@@ -110,12 +121,6 @@ body {
             }
             p {
                 padding-bottom: 1rem;
-            }
-            button {
-                background-color: @greyColor;
-                font-size: 1.25rem;
-                padding: .5rem 0;
-                width: 60%;
             }
         }
         section:nth-child(3) {

@@ -20,7 +20,7 @@ Programmer: Ellyn Culmsee
 html {
   font-size: 18px;
 }
-/* UNIVERSALS, HEADER, NAV, FOOTER */
+/* UNIVERSALS, HEADER, ALT HEADER, NAV, FOOTER */
 body {
   font-family: 'Nunito', sans-serif;
 }
@@ -29,10 +29,11 @@ body footer {
   padding: 0 2rem;
 }
 body h1,
-body h2 {
+body h2,
+body h3 {
   font-family: 'Jost', sans-serif;
-  font-size: 1.5rem;
   font-weight: 700;
+  text-align: center;
 }
 body img,
 body button {
@@ -45,6 +46,12 @@ body h1 {
 body h2 {
   font-size: 1.25rem;
 }
+body button {
+  background-color: #bebdbb;
+  font-size: 1.25rem;
+  padding: .5rem 0;
+  width: 60%;
+}
 body header {
   border-bottom: 1px solid #342e2e;
   height: 100vh;
@@ -52,7 +59,6 @@ body header {
 }
 body header h1 {
   padding-top: 10rem;
-  text-align: center;
 }
 body header p {
   border-bottom: 1px solid #342e2e;
@@ -60,6 +66,15 @@ body header p {
   margin-top: 21rem;
   padding: 1.25rem 0;
   text-align: center;
+}
+body .altHeader {
+  height: 10rem;
+}
+body .altHeader h1 {
+  padding-top: 4.5rem;
+}
+body .altHeader p {
+  display: none;
 }
 body nav {
   position: fixed;
@@ -99,9 +114,6 @@ body footer small p {
   text-align: center;
 }
 /* HOME PAGE */
-body main h2 {
-  text-align: center;
-}
 body main section:nth-child(1) img:nth-child(2),
 body main section:nth-child(2) img:nth-child(2),
 body main section:nth-child(1) img:nth-child(3),
@@ -120,12 +132,6 @@ body main section img {
 }
 body main section p {
   padding-bottom: 1rem;
-}
-body main section button {
-  background-color: #bebdbb;
-  font-size: 1.25rem;
-  padding: .5rem 0;
-  width: 60%;
 }
 body main section:nth-child(3) figure:nth-child(2),
 body main section:nth-child(3) figure:nth-child(3) {

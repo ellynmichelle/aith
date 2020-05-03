@@ -3,10 +3,10 @@
     
     <main>
     
-        <h1>H1 Heading</h1>
+        <h2>H2 Heading</h2>
 
         <section>
-            <h2>H2 Heading</h2>
+            <h3>H3 Heading</h3>
             <p>Small kitty warm kitty little balls of fur cat jumps and falls onto the couch purrs and wakes up in a new dimension filled with kitty litter.</p>
             <form action="">
                 <label for="fname">First name:</label>

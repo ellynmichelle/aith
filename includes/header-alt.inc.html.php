@@ -31,7 +31,7 @@ Programmer: Ellyn Culmsee
 
 <body>
 
-<header>
+<header class="altHeader">
 
     <h1>Ace in the Hole<br>Multisport Events</h1>
 

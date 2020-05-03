@@ -3,12 +3,12 @@
     
     <main>
     
-        <h1>H1 Heading</h1>
+        <h2>H2 Heading</h2>
 
         <section>
             <p>Small kitty warm kitty little balls of fur cat jumps and falls onto the couch purrs and wakes up in a new dimension filled with kitty litter.</p>
             <article>
-                <h2>H2 Heading?</h2>
+                <h3>H3 Heading</h3>
                 <aside>
                     <img src="../images/placeholder-circle.svg" alt="">
                     <img src="../images/placeholder-circle.svg" alt="">
@@ -18,7 +18,7 @@
                 </aside>
             </article>
             <article>
-                <h2>H2 Heading?</h2>
+                <h3>H3 Heading</h3>
                 <aside>
                     <img src="../images/placeholder-circle.svg" alt="">
                     <img src="../images/placeholder-circle.svg" alt="">
@@ -28,7 +28,7 @@
                 </aside>
             </article>
             <article>
-                <h2>H2 Heading?</h2>
+                <h3>H3 Heading</h3>
                 <aside>
                     <img src="../images/placeholder-circle.svg" alt="">
                     <img src="../images/placeholder-circle.svg" alt="">
