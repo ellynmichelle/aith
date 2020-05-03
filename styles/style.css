@@ -35,6 +35,13 @@ body h3 {
   font-weight: 700;
   text-align: center;
 }
+body h1,
+body h2,
+body h3,
+body p,
+body img {
+  padding-bottom: 1rem;
+}
 body img,
 body button {
   display: block;
@@ -45,6 +52,9 @@ body h1 {
 }
 body h2 {
   font-size: 1.25rem;
+}
+body img {
+  padding-top: 1rem;
 }
 body button {
   background-color: #bebdbb;
@@ -97,6 +107,7 @@ body footer article {
 body footer article h1,
 body footer article h2 {
   padding-bottom: 1rem;
+  text-align: left;
 }
 body footer article img {
   display: inline;
@@ -126,12 +137,8 @@ body main section {
   padding-top: 2rem;
 }
 body main section img {
-  padding: 1rem 0;
   text-align: center;
   width: 75%;
-}
-body main section p {
-  padding-bottom: 1rem;
 }
 body main section:nth-child(3) figure:nth-child(2),
 body main section:nth-child(3) figure:nth-child(3) {
@@ -148,6 +155,34 @@ body main section:nth-child(3) .carouselCircles img {
 }
 body main .socialMedia {
   display: none;
+}
+/* MULTISPORTS PAGE */
+main section article ul {
+  text-align: center;
+}
+/* REGISTER & CONTACT PAGES */
+main section form label {
+  display: none;
+}
+main section form input {
+  display: block;
+  font-size: 1rem;
+  margin: 0 auto;
+  padding: .25rem;
+  width: 50%;
+}
+/* FAQs PAGE */
+main section article aside {
+  padding-bottom: 1rem;
+}
+main section article aside h3 {
+  display: inline;
+  text-align: left;
+}
+main section article aside i {
+  color: pink;
+  font-size: 2rem;
+  padding-left: 10rem;
 }
 /* TABLET STYLESHEET
 

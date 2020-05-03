@@ -3,8 +3,10 @@
     
     <main>
     
-        <h2>H2 Heading</h2>
-        <button>Call-to-Action</button>
+        <section>
+            <h2>H2 Heading</h2>
+            <button>Call-to-Action</button>
+        </section>
 
         <section>
             <h3>H3 Heading</h3>

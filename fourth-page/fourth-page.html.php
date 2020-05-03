@@ -3,37 +3,39 @@
     
     <main>
     
-        <h2>H2 Heading</h2>
+        <section>
+            <h2>H2 Heading</h2>
+        </section>
 
         <section>
             <p>Small kitty warm kitty little balls of fur cat jumps and falls onto the couch purrs and wakes up in a new dimension filled with kitty litter.</p>
             <article>
-                <h3>H3 Heading</h3>
                 <aside>
-                    <img src="../images/placeholder-circle.svg" alt="">
-                    <img src="../images/placeholder-circle.svg" alt="">
+                    <h3>H3 Heading</h3>
+                    <i class="fas fa-caret-down"></i>
+                    <i class="fas fa-caret-up"></i>
                 </aside>
-                <aside>
+                <aside class="answer">
                     <p>Being gorgeous with belly side up stare at owner accusingly then wink don't nosh on the birds peer out window, chatter at birds, lure them to mouth.</p>
                 </aside>
             </article>
             <article>
-                <h3>H3 Heading</h3>
                 <aside>
-                    <img src="../images/placeholder-circle.svg" alt="">
-                    <img src="../images/placeholder-circle.svg" alt="">
+                    <h3>H3 Heading</h3>
+                    <i class="fas fa-caret-down"></i>
+                    <i class="fas fa-caret-up"></i>
                 </aside>
-                <aside>
+                <aside class="answer">
                     <p>Being gorgeous with belly side up stare at owner accusingly then wink don't nosh on the birds peer out window, chatter at birds, lure them to mouth.</p>
                 </aside>
             </article>
             <article>
-                <h3>H3 Heading</h3>
                 <aside>
-                    <img src="../images/placeholder-circle.svg" alt="">
-                    <img src="../images/placeholder-circle.svg" alt="">
+                    <h3>H3 Heading</h3>
+                    <i class="fas fa-caret-down"></i>
+                    <i class="fas fa-caret-up"></i>
                 </aside>
-                <aside>
+                <aside class="answer">
                     <p>Being gorgeous with belly side up stare at owner accusingly then wink don't nosh on the birds peer out window, chatter at birds, lure them to mouth.</p>
                 </aside>
             </article>

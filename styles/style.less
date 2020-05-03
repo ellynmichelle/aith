@@ -24,6 +24,9 @@ body {
         font-weight: 700;
         text-align: center;
     }
+    h1, h2, h3, p, img {
+        padding-bottom: 1rem;
+    }
     img, button {
         display: block;
         margin: 0 auto;
@@ -33,6 +36,9 @@ body {
     }
     h2 {
         font-size: 1.25rem;
+    }
+    img {
+        padding-top: 1rem;
     }
     button {
         background-color: @greyColor;
@@ -82,6 +88,7 @@ body {
             padding-bottom: 2.5rem;
             h1, h2 {
                 padding-bottom: 1rem;
+                text-align: left;
             }
             img {
                 display: inline;
@@ -115,12 +122,8 @@ body {
             padding-bottom: 2rem;
             padding-top: 2rem;
             img {
-                padding: 1rem 0;
                 text-align: center;
                 width: 75%;
-            }
-            p {
-                padding-bottom: 1rem;
             }
         }
         section:nth-child(3) {
@@ -139,6 +142,55 @@ body {
         }
         .socialMedia {
             display: none;
+        }
+    }
+}
+
+/* MULTISPORTS PAGE */
+main {
+    section {
+        article {
+            ul {
+                text-align: center;
+            }
+        }
+    }
+}
+
+/* REGISTER & CONTACT PAGES */
+main {
+    section {
+        form {
+            label {
+                display: none;
+            }
+            input {
+                display: block;
+                font-size: 1rem;
+                margin: 0 auto;
+                padding: .25rem;
+                width: 50%;
+            }
+        }
+    }
+}
+
+/* FAQs PAGE */
+main {
+    section {
+        article {
+            aside {
+                padding-bottom: 1rem;
+                h3 {
+                    display: inline;
+                    text-align: left;
+                }
+                i {
+                    color: pink;
+                    font-size: 2rem;
+                    padding-left: 10rem;
+                }
+            }
         }
     }
 }

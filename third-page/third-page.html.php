@@ -3,7 +3,9 @@
     
     <main>
     
-        <h2>H2 Heading</h2>
+        <section>
+            <h2>H2 Heading</h2>
+        </section>
 
         <section>
             <h3>H3 Heading</h3>
