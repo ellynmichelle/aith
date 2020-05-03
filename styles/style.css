@@ -18,7 +18,7 @@ Programmer: Ellyn Culmsee
 /* Parametric mixin for headings */
 /* MOBILE STYLESHEET */
 html {
-  font-size: 18px;
+  font-size: 20px;
 }
 /* UNIVERSALS, HEADER, ALT HEADER, NAV, FOOTER */
 body {
@@ -42,15 +42,22 @@ body p,
 body img {
   padding-bottom: 1rem;
 }
+body p,
+body ul {
+  line-height: 1.6;
+}
 body img,
 body button {
   display: block;
   margin: 0 auto;
 }
 body h1 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 body h2 {
+  font-size: 1.5rem;
+}
+body h3 {
   font-size: 1.25rem;
 }
 body img {
@@ -73,7 +80,7 @@ body header h1 {
 body header p {
   border-bottom: 1px solid #342e2e;
   border-top: 1px solid #342e2e;
-  margin-top: 21rem;
+  margin-top: 15rem;
   padding: 1.25rem 0;
   text-align: center;
 }
@@ -91,10 +98,12 @@ body nav {
   top: 0;
 }
 body nav i {
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding: .75rem 1rem;
 }
 body nav ul {
+  font-size: 1.25rem;
+  line-height: 2;
   padding-left: 1.25rem;
 }
 body footer {
@@ -118,7 +127,7 @@ body footer article:last-of-type {
   display: none;
 }
 body footer small {
-  font-size: .9rem;
+  font-size: .75rem;
 }
 body footer small p {
   padding-top: 4rem;
@@ -151,7 +160,7 @@ body main section:nth-child(3) .carouselCircles {
 }
 body main section:nth-child(3) .carouselCircles img {
   display: inline;
-  width: 22%;
+  width: 21%;
 }
 body main .socialMedia {
   display: none;
@@ -160,11 +169,21 @@ body main .socialMedia {
 main section article ul {
   text-align: center;
 }
+main section .event02,
+main section .event03,
+main section .event05,
+main section .event06 {
+  display: none;
+}
 /* REGISTER & CONTACT PAGES */
 main section form label {
   display: none;
 }
-main section form input {
+main section form .role {
+  display: inline;
+}
+main section form input,
+main section form select {
   display: block;
   font-size: 1rem;
   margin: 0 auto;
@@ -180,9 +199,9 @@ main section article aside h3 {
   text-align: left;
 }
 main section article aside i {
-  color: pink;
-  font-size: 2rem;
-  padding-left: 10rem;
+  font-size: 1.75rem;
+  padding-left: 6rem;
+  padding-top: .75rem;
 }
 /* TABLET STYLESHEET
 

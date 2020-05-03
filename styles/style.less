@@ -10,7 +10,7 @@ Programmer: Ellyn Culmsee
 /* MOBILE STYLESHEET */
 
 html {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /* UNIVERSALS, HEADER, ALT HEADER, NAV, FOOTER */
@@ -27,14 +27,20 @@ body {
     h1, h2, h3, p, img {
         padding-bottom: 1rem;
     }
+    p, ul {
+        line-height: 1.6;
+    }
     img, button {
         display: block;
         margin: 0 auto;
     }
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
     }
     h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
         font-size: 1.25rem;
     }
     img {
@@ -56,7 +62,7 @@ body {
         p {
             border-bottom: 1px solid @darkColor;
             border-top: 1px solid @darkColor;
-            margin-top: 21rem;
+            margin-top: 15rem;
             padding: 1.25rem 0;
             text-align: center;
         }
@@ -74,10 +80,12 @@ body {
         position: fixed;
         top: 0;
         i {
-            font-size: 2.5rem;
+            font-size: 2rem;
             padding: .75rem 1rem;
         }
         ul {
+            font-size: 1.25rem;
+            line-height: 2;
             padding-left: 1.25rem;
         }
     }
@@ -100,7 +108,7 @@ body {
             display: none;
         }
         small {
-            font-size: .9rem;
+            font-size: .75rem;
             p {
                 padding-top: 4rem;
                 text-align: center;
@@ -136,7 +144,7 @@ body {
                 width: 35%;
                 img {
                     display: inline;
-                    width: 22%;
+                    width: 21%;
                 }
             }
         }
@@ -154,6 +162,9 @@ main {
                 text-align: center;
             }
         }
+        .event02, .event03, .event05, .event06 {
+            display: none;
+        }
     }
 }
 
@@ -164,7 +175,10 @@ main {
             label {
                 display: none;
             }
-            input {
+            .role {
+                display: inline;
+            }
+            input, select {
                 display: block;
                 font-size: 1rem;
                 margin: 0 auto;
@@ -186,9 +200,9 @@ main {
                     text-align: left;
                 }
                 i {
-                    color: pink;
-                    font-size: 2rem;
-                    padding-left: 10rem;
+                    font-size: 1.75rem;
+                    padding-left: 6rem;
+                    padding-top: .75rem;
                 }
             }
         }

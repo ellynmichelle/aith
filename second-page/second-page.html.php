@@ -11,7 +11,7 @@
         <section>
             <h3>H3 Heading</h3>
             <button>Call-to-Action</button>
-            <article>
+            <article class="event01">
                 <img src="../images/placeholder-circle.svg" alt="">
                 <ul>
                     <li>Lie on your belly and purr</li>
@@ -20,7 +20,7 @@
                     <li>Lie on your belly and purr</li>
                 </ul>
             </article>
-            <article>
+            <article class="event02">
                 <img src="../images/placeholder-circle.svg" alt="">
                 <ul>
                     <li>Lie on your belly and purr</li>
@@ -29,7 +29,7 @@
                     <li>Lie on your belly and purr</li>
                 </ul>
             </article>
-            <article>
+            <article class="event03">
                 <img src="../images/placeholder-circle.svg" alt="">
                 <ul>
                     <li>Lie on your belly and purr</li>
@@ -43,7 +43,7 @@
         <section>
             <h3>H3 Heading</h3>
             <button>Call-to-Action</button>
-            <article>
+            <article class="event04">
                 <img src="../images/placeholder-circle.svg" alt="">
                 <ul>
                     <li>Lie on your belly and purr</li>
@@ -52,7 +52,7 @@
                     <li>Lie on your belly and purr</li>
                 </ul>
             </article>
-            <article>
+            <article class="event05">
                 <img src="../images/placeholder-circle.svg" alt="">
                 <ul>
                     <li>Lie on your belly and purr</li>
@@ -61,7 +61,7 @@
                     <li>Lie on your belly and purr</li>
                 </ul>
             </article>
-            <article>
+            <article class="event06">
                 <img src="../images/placeholder-circle.svg" alt="">
                 <ul>
                     <li>Lie on your belly and purr</li>
