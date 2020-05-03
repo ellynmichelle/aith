@@ -13,6 +13,7 @@ html {
     font-size: 18px;
 }
 
+/* UNIVERSALS, HEADER, NAV, FOOTER */
 body {
     font-family: 'Nunito', sans-serif;
     main, footer {
@@ -23,14 +24,15 @@ body {
         font-size: 1.5rem;
         font-weight: 700;
     }
+    img, button {
+        display: block;
+        margin: 0 auto;
+    }
     h1 {
         font-size: 1.5rem;
     }
     h2 {
         font-size: 1.25rem;
-    }
-    img {
-        width: 30%;
     }
     header {
         border-bottom: 1px solid @darkColor;
@@ -68,6 +70,7 @@ body {
                 padding-bottom: 1rem;
             }
             img {
+                display: inline;
                 padding-right: 1rem;
                 width: 25%;
             }
@@ -81,6 +84,57 @@ body {
                 padding-top: 4rem;
                 text-align: center;
             }
+        }
+    }
+}
+
+/* HOME PAGE */
+body {
+    main {
+        h2 {
+            text-align: center;
+        }
+        section:nth-child(1), section:nth-child(2) {
+            img:nth-child(2), img:nth-child(3) {
+                display: none;
+            }
+        }
+        section {
+            border-bottom: 1px solid @darkColor;
+            padding-bottom: 2rem;
+            padding-top: 2rem;
+            img {
+                padding: 1rem 0;
+                text-align: center;
+                width: 75%;
+            }
+            p {
+                padding-bottom: 1rem;
+            }
+            button {
+                background-color: @greyColor;
+                font-size: 1.25rem;
+                padding: .5rem 0;
+                width: 60%;
+            }
+        }
+        section:nth-child(3) {
+            border-bottom: none;
+            figure:nth-child(2), figure:nth-child(3) {
+                display: none;
+            }
+            article:last-child {
+                margin: 0 auto;
+                padding-top: 1rem;
+                width: 35%;
+                img {
+                    display: inline;
+                    width: 22%;
+                }
+            }
+        }
+        section:last-child {
+            display: none;
         }
     }
 }

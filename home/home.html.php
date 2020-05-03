@@ -4,7 +4,7 @@
     <main>
 
         <section>
-            <h1>H1 Heading</h1>
+            <h2>H2 Heading</h2>
             <img src="images/placeholder-circle.svg" alt="">
             <img src="images/placeholder-circle.svg" alt="">
             <img src="images/placeholder-circle.svg" alt="">
@@ -13,7 +13,7 @@
         </section>
 
         <section>
-            <h1>H1 Heading</h1>
+            <h2>H2 Heading</h2>
             <img src="images/placeholder-circle.svg" alt="">
             <img src="images/placeholder-circle.svg" alt="">
             <img src="images/placeholder-circle.svg" alt="">
@@ -22,7 +22,7 @@
         </section>
 
         <section>
-            <h1>H1 Heading</h1>
+            <h2>H2 Heading</h2>
             <article>
                 <figure>
                     <img src="images/placeholder-rectangle.svg" alt="">
@@ -38,15 +38,15 @@
                 </figure>
             </article>
             <article>
-                <img src="images/placeholder-circle.svg" alt="">
-                <img src="images/placeholder-circle.svg" alt="">
-                <img src="images/placeholder-circle.svg" alt="">
-                <img src="images/placeholder-circle.svg" alt="">
+                <img src="images/placeholder-circle-small.svg" alt="">
+                <img src="images/placeholder-circle-small.svg" alt="">
+                <img src="images/placeholder-circle-small.svg" alt="">
+                <img src="images/placeholder-circle-small.svg" alt="">
             </article>
         </section>
 
         <section>
-            <h1>H1 Heading</h1>
+            <h2>H2 Heading</h2>
             <article>
                 <a href=""><img src="images/placeholder-circle.svg" alt=""></a>
                 <a href=""><img src="images/placeholder-circle.svg" alt=""></a>

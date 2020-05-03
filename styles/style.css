@@ -20,6 +20,7 @@ Programmer: Ellyn Culmsee
 html {
   font-size: 18px;
 }
+/* UNIVERSALS, HEADER, NAV, FOOTER */
 body {
   font-family: 'Nunito', sans-serif;
 }
@@ -33,14 +34,16 @@ body h2 {
   font-size: 1.5rem;
   font-weight: 700;
 }
+body img,
+body button {
+  display: block;
+  margin: 0 auto;
+}
 body h1 {
   font-size: 1.5rem;
 }
 body h2 {
   font-size: 1.25rem;
-}
-body img {
-  width: 30%;
 }
 body header {
   border-bottom: 1px solid #342e2e;
@@ -81,6 +84,7 @@ body footer article h2 {
   padding-bottom: 1rem;
 }
 body footer article img {
+  display: inline;
   padding-right: 1rem;
   width: 25%;
 }
@@ -93,6 +97,54 @@ body footer small {
 body footer small p {
   padding-top: 4rem;
   text-align: center;
+}
+/* HOME PAGE */
+body main h2 {
+  text-align: center;
+}
+body main section:nth-child(1) img:nth-child(2),
+body main section:nth-child(2) img:nth-child(2),
+body main section:nth-child(1) img:nth-child(3),
+body main section:nth-child(2) img:nth-child(3) {
+  display: none;
+}
+body main section {
+  border-bottom: 1px solid #342e2e;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+body main section img {
+  padding: 1rem 0;
+  text-align: center;
+  width: 75%;
+}
+body main section p {
+  padding-bottom: 1rem;
+}
+body main section button {
+  background-color: #bebdbb;
+  font-size: 1.25rem;
+  padding: .5rem 0;
+  width: 60%;
+}
+body main section:nth-child(3) {
+  border-bottom: none;
+}
+body main section:nth-child(3) figure:nth-child(2),
+body main section:nth-child(3) figure:nth-child(3) {
+  display: none;
+}
+body main section:nth-child(3) article:last-child {
+  margin: 0 auto;
+  padding-top: 1rem;
+  width: 35%;
+}
+body main section:nth-child(3) article:last-child img {
+  display: inline;
+  width: 22%;
+}
+body main section:last-child {
+  display: none;
 }
 /* TABLET STYLESHEET
 
