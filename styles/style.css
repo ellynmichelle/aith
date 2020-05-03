@@ -127,23 +127,20 @@ body main section button {
   padding: .5rem 0;
   width: 60%;
 }
-body main section:nth-child(3) {
-  border-bottom: none;
-}
 body main section:nth-child(3) figure:nth-child(2),
 body main section:nth-child(3) figure:nth-child(3) {
   display: none;
 }
-body main section:nth-child(3) article:last-child {
+body main section:nth-child(3) .carouselCircles {
   margin: 0 auto;
   padding-top: 1rem;
   width: 35%;
 }
-body main section:nth-child(3) article:last-child img {
+body main section:nth-child(3) .carouselCircles img {
   display: inline;
   width: 22%;
 }
-body main section:last-child {
+body main .socialMedia {
   display: none;
 }
 /* TABLET STYLESHEET

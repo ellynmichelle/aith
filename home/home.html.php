@@ -37,7 +37,7 @@
                     <figcaption>"My cat buddies have no litter i live in luxury cat life for swat at dog, but instead of drinking water from the cat bowl."</figcaption>
                 </figure>
             </article>
-            <article>
+            <article class="carouselCircles">
                 <img src="images/placeholder-circle-small.svg" alt="">
                 <img src="images/placeholder-circle-small.svg" alt="">
                 <img src="images/placeholder-circle-small.svg" alt="">
@@ -45,7 +45,7 @@
             </article>
         </section>
 
-        <section>
+        <section class="socialMedia">
             <h2>H2 Heading</h2>
             <article>
                 <a href=""><img src="images/placeholder-circle.svg" alt=""></a>
