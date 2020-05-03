@@ -43,6 +43,10 @@ body {
     h3 {
         font-size: 1.25rem;
     }
+    a {
+        color: @color3;
+        text-decoration: none;
+    }
     img {
         padding-top: 1rem;
     }
@@ -77,8 +81,11 @@ body {
         }
     }
     nav {
+        background-color: @darkenColor3;
+        color: @lightColor;
         position: fixed;
         top: 0;
+        width: 100%;
         i {
             font-size: 2rem;
             padding: .75rem 1rem;
@@ -87,6 +94,17 @@ body {
             font-size: 1.25rem;
             line-height: 2;
             padding-left: 1.25rem;
+            li {
+                a {
+                    color: rgba(255, 255, 255, 0.65);
+                }
+                .currentLink {
+                    color: @lightColor;
+                }
+            }
+            li:last-of-type {
+                padding-bottom: 1rem;
+            }
         }
     }
     footer {
