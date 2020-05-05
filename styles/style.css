@@ -306,6 +306,50 @@ main section article aside i {
 /* TABLET STYLESHEET
 
 The following CSS affects all screen sizes larger than 480 pixels wide. */
+@media only screen and (min-width: 481px) {
+  body main,
+  body footer {
+    padding: 0 6rem;
+  }
+  body header p {
+    margin-top: 40rem;
+  }
+  body footer {
+    padding-top: 6rem;
+  }
+  /* HOME PAGE */
+  body main section {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+  }
+  body main section img {
+    width: 70%;
+  }
+  body main .darkSection {
+    margin: 0 -6rem;
+  }
+  body main .darkSection figure figcaption {
+    padding: 0 6rem;
+  }
+  body main .darkSection .carouselCircles {
+    width: 12%;
+  }
+  body main .darkSection .carouselCircles img {
+    width: 20%;
+  }
+  body main .socialMedia {
+    display: block;
+    margin: 0 -6rem;
+  }
+  body main .socialMedia article {
+    text-align: center;
+  }
+  body main .socialMedia article a img {
+    display: inline-block;
+    padding: 1rem;
+    width: 22%;
+  }
+}
 /* DESKTOP STYLESHEET
 
 The following CSS affects all screen sizes larger than 1024 pixels wide. */

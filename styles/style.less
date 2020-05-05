@@ -304,6 +304,61 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
 
 @media only screen and (min-width: 481px) {
     
+    body {
+        main, footer {
+            padding: 0 6rem;
+        }
+        header {
+            p {
+                margin-top: 40rem;
+            }
+        }
+        footer {
+            padding-top: 6rem;
+        }
+    }
+    
+    /* HOME PAGE */
+    body {
+        main {
+            section {
+                padding-bottom: 4rem;
+                padding-top: 4rem;
+                img {
+                    width: 70%;
+                }
+            }
+            .darkSection {
+                margin: 0 -6rem;
+                figure {
+                    figcaption {
+                        padding: 0 6rem;
+                    }
+                }
+                .carouselCircles {
+                    width: 12%;
+                    img {
+                        width: 20%;
+                    }
+                }
+            }
+            .socialMedia {
+                display: block;
+                margin: 0 -6rem;
+                article {
+                    text-align: center;
+                    a {
+                        img {
+                            display: inline-block;
+                            padding: 1rem;
+                            width: 22%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
 }
 
 /* DESKTOP STYLESHEET
