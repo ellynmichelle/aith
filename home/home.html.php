@@ -8,7 +8,7 @@
             <img src="images/placeholder-circle.svg" alt="">
             <img src="images/placeholder-circle.svg" alt="">
             <img src="images/placeholder-circle.svg" alt="">
-            <p>The best thing in the universe is a cardboard box cereal boxes make for five star accommodation and the cat was chasing the mouse for kick up litter and cough hairball, eat toilet paper. Behind the couch the fat cat sat on the mat bat away with paws. Run in circles. Where is my slave? I'm getting hungry. Throwup on your pillow when in doubt, wash, or unwrap toilet paper, love me!</p>
+            <p>The best thing in the universe is a cardboard box cereal boxes make for five star accommodation and the cat was chasing the mouse for kick up litter and cough hairball, eat toilet paper.</p>
             <button>Call-to-Action</button>
         </section>
 
@@ -17,11 +17,11 @@
             <img src="images/placeholder-circle.svg" alt="">
             <img src="images/placeholder-circle.svg" alt="">
             <img src="images/placeholder-circle.svg" alt="">
-            <p>for meowing chowing and wowing but a nice warm laptop for me to sit on but cat walks in keyboard . Be a nyan cat, feel great about it, be annoying 24/7 poop rainbows in litter box all day mew refuse to drink water except out of someone's glass yet grass smells good, plan your travel.</p>
+            <p>For meowing chowing and wowing but a nice warm laptop for me to sit on but cat walks in keyboard.</p>
             <button>Call-to-Action</button>
         </section>
 
-        <section>
+        <section class="darkSection">
             <h2>H2 Heading</h2>
             <article>
                 <figure>

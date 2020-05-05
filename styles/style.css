@@ -35,6 +35,7 @@ body h3 {
   font-family: 'Jost', sans-serif;
   font-weight: 500;
   text-align: center;
+  text-transform: uppercase;
 }
 body h1,
 body h2,
@@ -56,10 +57,12 @@ body h1 {
   font-size: 1.5rem;
 }
 body h2 {
+  color: #a10219;
   font-size: 1.5rem;
 }
 body h3 {
-  font-size: 1.25rem;
+  color: #0971b3;
+  font-size: 1.4rem;
 }
 body a {
   color: #127573;
@@ -69,7 +72,12 @@ body img {
   padding-top: 1rem;
 }
 body button {
-  background-color: #bebdbb;
+  border: 1px solid #2ea7f4;
+  border-radius: 2rem;
+  box-shadow: 2px 2px #0971b3;
+  background-color: #2ea7f4;
+  color: #ffffff;
+  font-family: 'Jost', sans-serif;
   font-size: 1.25rem;
   padding: .5rem 0;
   width: 60%;
@@ -79,8 +87,8 @@ body header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #212121;
   background-image: url("../images/ace1.jpg");
-  background-color: #0b4948;
   height: 100vh;
   width: 100vw;
 }
@@ -88,11 +96,12 @@ body header h1 {
   color: #ffffff;
   line-height: 1.2;
   padding-top: .5rem;
+  text-transform: none;
 }
 body header p {
   background-color: rgba(255, 255, 255, 0.75);
-  border-bottom: 2px solid #342e2e;
-  border-top: 2px solid #342e2e;
+  border-bottom: 2px solid #212121;
+  border-top: 2px solid #212121;
   font-family: 'Jost', sans-serif;
   font-weight: 700;
   letter-spacing: .2rem;
@@ -124,7 +133,7 @@ body nav .fa-times {
   z-index: 100;
 }
 body nav ul {
-  background-color: black;
+  background-color: #212121;
   font-size: 1.25rem;
   line-height: 2;
   padding-left: 1.25rem;
@@ -144,7 +153,7 @@ body nav ul li:last-of-type {
 }
 body footer {
   background-color: #f0f0ef;
-  color: #342e2e;
+  color: #212121;
   padding-top: 4rem;
 }
 body footer article {
@@ -152,7 +161,7 @@ body footer article {
 }
 body footer article h1,
 body footer article h2 {
-  color: #a10219;
+  color: #043452;
   padding-bottom: 1rem;
   text-align: left;
 }
@@ -173,6 +182,9 @@ body footer small p {
   text-align: center;
 }
 /* HOME PAGE */
+body main {
+  background-color: #ffffff;
+}
 body main section:nth-child(1) img:nth-child(2),
 body main section:nth-child(2) img:nth-child(2),
 body main section:nth-child(1) img:nth-child(3),
@@ -180,7 +192,6 @@ body main section:nth-child(2) img:nth-child(3) {
   display: none;
 }
 body main section {
-  border-bottom: 1px solid #342e2e;
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
@@ -188,16 +199,27 @@ body main section img {
   text-align: center;
   width: 75%;
 }
-body main section:nth-child(3) figure:nth-child(2),
-body main section:nth-child(3) figure:nth-child(3) {
+body main .darkSection {
+  background-color: #212121;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0 -2rem;
+}
+body main .darkSection h2 {
+  color: rgba(255, 255, 255, 0.75);
+}
+body main .darkSection figure:nth-child(2),
+body main .darkSection figure:nth-child(3) {
   display: none;
 }
-body main section:nth-child(3) .carouselCircles {
+body main .darkSection figure figcaption {
+  padding: 0 2rem;
+}
+body main .darkSection .carouselCircles {
   margin: 0 auto;
   padding-top: 1rem;
   width: 35%;
 }
-body main section:nth-child(3) .carouselCircles img {
+body main .darkSection .carouselCircles img {
   display: inline;
   width: 21%;
 }
@@ -205,8 +227,29 @@ body main .socialMedia {
   display: none;
 }
 /* MULTISPORTS PAGE */
+main header {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10rem;
+  background-color: #ffffff;
+  background-image: url("../images/ace1.jpg");
+  margin: 0 -2rem;
+}
+main header article {
+  background-color: rgba(255, 255, 255, 0.75);
+  height: 10rem;
+}
+main header article h2 {
+  padding-top: 2rem;
+}
 main section article ul {
-  text-align: center;
+  font-size: 1.2rem;
+}
+main section article ul i {
+  color: #2ea7f4;
+  padding-right: 1rem;
 }
 main section .event02,
 main section .event03,
@@ -215,19 +258,36 @@ main section .event06 {
   display: none;
 }
 /* REGISTER & CONTACT PAGES */
-main section form label {
-  display: none;
-}
-main section form .role {
-  display: inline;
+main section form {
+  padding: 1rem 0;
 }
 main section form input,
 main section form select {
+  background-color: #f0f0ef;
+  border: none;
   display: block;
   font-size: 1rem;
   margin: 0 auto;
+  margin-top: .5rem;
   padding: .25rem;
   width: 50%;
+}
+main section form label {
+  padding-left: 3rem;
+}
+main section form article input,
+main section form article label {
+  display: inline;
+}
+main section form article label {
+  padding: 0;
+}
+main section form button {
+  background-color: #212121;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  margin-top: 1rem;
 }
 /* FAQs PAGE */
 main section article aside {
@@ -238,6 +298,7 @@ main section article aside h3 {
   text-align: left;
 }
 main section article aside i {
+  color: #212121;
   font-size: 1.75rem;
   padding-left: 6rem;
   padding-top: .75rem;

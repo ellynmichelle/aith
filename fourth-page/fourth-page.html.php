@@ -3,9 +3,11 @@
     
     <main>
     
-        <section>
-            <h2>H2 Heading</h2>
-        </section>
+        <header>
+            <article>
+                <h2>H2 Heading</h2>
+            </article>
+        </header>
 
         <section>
             <p>Small kitty warm kitty little balls of fur cat jumps and falls onto the couch purrs and wakes up in a new dimension filled with kitty litter.</p>
