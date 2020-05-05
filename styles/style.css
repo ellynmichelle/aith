@@ -373,6 +373,10 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
     margin-top: 2rem;
     width: 50%;
   }
+  /* FAQs PAGE */
+  main section article aside i {
+    padding-left: 15rem;
+  }
 }
 /* DESKTOP STYLESHEET
 
