@@ -368,6 +368,11 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
   main section article ul {
     padding-left: 3rem;
   }
+  /* REGISTER & CONTACT PAGES */
+  main section form button {
+    margin-top: 2rem;
+    width: 50%;
+  }
 }
 /* DESKTOP STYLESHEET
 
