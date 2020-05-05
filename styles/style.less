@@ -146,7 +146,7 @@ body {
                 width: 25%;
             }
         }
-        article:last-of-type {
+        .weatherFeed {
             display: none;
         }
         small {
@@ -422,4 +422,122 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
 
 @media only screen and (min-width: 1025px) {
     
+    html {
+        font-size: 18px;
+    }
+    
+    body {
+        .section, .group {
+            padding: 0;
+        }
+        header {
+            h1 {
+                height: 5rem;
+                width: 35%;
+            }
+            p {
+                font-size: .9rem;
+                margin: 0 auto;
+                margin-top: 25rem;
+                width: 40%;
+            }
+        }
+        nav {
+            right: 0;
+            top: 0;
+            width: 65%;
+            ul {
+                background-color: transparent;
+                height: 5rem;
+                font-size: 1rem;
+                font-weight: 700;
+                line-height: 1;
+                padding-left: 0;
+                padding-top: 2rem;
+                position: relative;
+                text-align: center;
+                li {
+                    display: inline-block;
+                    padding-right: 2rem;
+                }
+                li:last-of-type {
+                    padding-bottom: 0;
+                    padding-right: 0;
+                }
+            }
+        }
+        footer {
+            font-size: 16px;
+            section {
+                article {
+                    h2 {
+                        font-size: 1.25rem;
+                    }
+                    padding: 1rem;
+                }
+            }
+        }
+    } 
+    
+    /* HOME PAGE */
+    body {
+        main {
+            section:nth-child(1), section:nth-child(2) {
+                img:nth-child(2), img:nth-child(3) {
+                    display: inline;
+                }
+            }
+            .section {
+                section {
+                    h2 {
+                        padding-bottom: 2rem;
+                    }
+                    article {
+                        padding-bottom: 2rem;
+                        text-align: center;
+                        img {
+                            display: inline-block;
+                            padding: .5rem;
+                            width: 30%;
+                        }
+                    }
+                    button {
+                        margin-top: 2rem;
+                        width: 40%;
+                    }
+                } 
+                section:first-of-type {
+                    padding-right: 2rem;
+                }
+                section:last-of-type {
+                    padding-left: 2rem;
+                }
+            }
+            .darkSection {
+                margin: 0 -6rem;
+                article {
+                    padding: 0 4rem;
+                    figure:nth-child(2), figure:nth-child(3) {
+                        display: inline-block;
+                    }
+                    figure {
+                        padding: 0 1rem;
+                        img {
+                            display: block;
+                            width: 100%;
+                        }
+                        figcaption {
+                            font-size: .9rem;
+                            padding: 0;
+                        }
+                    }
+                    }
+                .carouselCircles {
+                    width: 25%;
+                }
+            }
+        }
+    }
+
+
 }

@@ -170,7 +170,7 @@ body footer article img {
   padding-right: 1rem;
   width: 25%;
 }
-body footer article:last-of-type {
+body footer .weatherFeed {
   display: none;
 }
 body footer small {
@@ -381,3 +381,108 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
 /* DESKTOP STYLESHEET
 
 The following CSS affects all screen sizes larger than 1024 pixels wide. */
+@media only screen and (min-width: 1025px) {
+  html {
+    font-size: 18px;
+  }
+  body .section,
+  body .group {
+    padding: 0;
+  }
+  body header h1 {
+    height: 5rem;
+    width: 35%;
+  }
+  body header p {
+    font-size: .9rem;
+    margin: 0 auto;
+    margin-top: 25rem;
+    width: 40%;
+  }
+  body nav {
+    right: 0;
+    top: 0;
+    width: 65%;
+  }
+  body nav ul {
+    background-color: transparent;
+    height: 5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1;
+    padding-left: 0;
+    padding-top: 2rem;
+    position: relative;
+    text-align: center;
+  }
+  body nav ul li {
+    display: inline-block;
+    padding-right: 2rem;
+  }
+  body nav ul li:last-of-type {
+    padding-bottom: 0;
+    padding-right: 0;
+  }
+  body footer {
+    font-size: 16px;
+  }
+  body footer section article {
+    padding: 1rem;
+  }
+  body footer section article h2 {
+    font-size: 1.25rem;
+  }
+  /* HOME PAGE */
+  body main section:nth-child(1) img:nth-child(2),
+  body main section:nth-child(2) img:nth-child(2),
+  body main section:nth-child(1) img:nth-child(3),
+  body main section:nth-child(2) img:nth-child(3) {
+    display: inline;
+  }
+  body main .section section h2 {
+    padding-bottom: 2rem;
+  }
+  body main .section section article {
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+  body main .section section article img {
+    display: inline-block;
+    padding: .5rem;
+    width: 30%;
+  }
+  body main .section section button {
+    margin-top: 2rem;
+    width: 40%;
+  }
+  body main .section section:first-of-type {
+    padding-right: 2rem;
+  }
+  body main .section section:last-of-type {
+    padding-left: 2rem;
+  }
+  body main .darkSection {
+    margin: 0 -6rem;
+  }
+  body main .darkSection article {
+    padding: 0 4rem;
+  }
+  body main .darkSection article figure:nth-child(2),
+  body main .darkSection article figure:nth-child(3) {
+    display: inline-block;
+  }
+  body main .darkSection article figure {
+    padding: 0 1rem;
+  }
+  body main .darkSection article figure img {
+    display: block;
+    width: 100%;
+  }
+  body main .darkSection article figure figcaption {
+    font-size: .9rem;
+    padding: 0;
+  }
+  body main .darkSection .carouselCircles {
+    width: 25%;
+  }
+}

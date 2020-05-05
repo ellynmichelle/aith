@@ -23,9 +23,16 @@ Programmer: Ellyn Culmsee
 // Code for hamburger navigation.
 $(document).ready(function () {
 
-    $(".navigation").hide();
-    $(".fa-times").hide();
-    $(".fa-bars").show();
+    if ($(window).width() > 1024) {
+        $(".navigation").show();
+        $(".fa-times").hide();
+        $(".fa-bars").hide();
+    }
+    else {
+        $(".navigation").hide();
+        $(".fa-times").hide();
+        $(".fa-bars").show();
+    }
     
     $(".fa-bars").on("click", function () {
        
