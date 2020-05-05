@@ -72,12 +72,12 @@ body img {
   padding-top: 1rem;
 }
 body button {
+  font-family: 'Jost', sans-serif;
   border: 1px solid #2ea7f4;
   border-radius: 2rem;
   box-shadow: 2px 2px #0971b3;
   background-color: #2ea7f4;
   color: #ffffff;
-  font-family: 'Jost', sans-serif;
   font-size: 1.25rem;
   padding: .5rem 0;
   width: 60%;
@@ -99,10 +99,10 @@ body header h1 {
   text-transform: none;
 }
 body header p {
+  font-family: 'Jost', sans-serif;
   background-color: rgba(255, 255, 255, 0.75);
   border-bottom: 2px solid #212121;
   border-top: 2px solid #212121;
-  font-family: 'Jost', sans-serif;
   font-weight: 700;
   letter-spacing: .2rem;
   margin-top: 26rem;
@@ -143,7 +143,7 @@ body nav ul {
   width: 100%;
 }
 body nav ul li a {
-  color: rgba(255, 255, 255, 0.65);
+  color: rgba(255, 255, 255, 0.75);
 }
 body nav ul li .currentLink {
   color: #ffffff;
@@ -200,8 +200,8 @@ body main section img {
   width: 75%;
 }
 body main .darkSection {
-  background-color: #212121;
   color: rgba(255, 255, 255, 0.75);
+  background-color: #212121;
   margin: 0 -2rem;
 }
 body main .darkSection h2 {
