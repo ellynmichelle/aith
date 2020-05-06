@@ -4,9 +4,7 @@
     <main>
     
         <header>
-            <article>
                 <h2>H2 Heading</h2>
-            </article>
         </header>
 
         <section>

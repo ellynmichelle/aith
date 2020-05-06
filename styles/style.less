@@ -68,6 +68,7 @@ body {
         height: 100vh;
         width: 100vw;
         h1 {
+            background-color: @darkColor;
             color: @lightColor;
             line-height: 1.2;
             padding-top: .5rem;
@@ -211,18 +212,11 @@ body {
 /* MULTISPORTS PAGE */
 main {
     header {
-        .heroFixed();
-        height: 10rem;
-        background-color: @lightColor;
-        background-image: url("../images/ace1.jpg");
-        margin: 0 -2rem;
-        article {
-            .bckgrdWhiteOpacity();
-            height: 10rem;
-            h2 {
-                padding-top: 2rem;
-            }
-        }
+        background-color: @lightenGreyColor;
+        background-image: url("");
+        height: 2rem;
+        margin-left: -2rem;
+        padding: 1.5rem 0 3rem 0;
     }
     section {
         article {
@@ -371,12 +365,7 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
     /* MULTISPORTS PAGE */
     main {
         header {
-            margin: 0 -6rem;
-            article {
-                button {
-                    width: 40%;
-                }
-            }
+            margin-left: -6rem;
         }
         section {
             article {
@@ -447,9 +436,8 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
             top: 0;
             width: 65%;
             ul {
-                background-color: transparent;
                 height: 5rem;
-                font-size: 1rem;
+                font-size: .9rem;
                 font-weight: 700;
                 line-height: 1;
                 padding-left: 0;

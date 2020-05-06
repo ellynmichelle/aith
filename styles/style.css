@@ -93,6 +93,7 @@ body header {
   width: 100vw;
 }
 body header h1 {
+  background-color: #212121;
   color: #ffffff;
   line-height: 1.2;
   padding-top: .5rem;
@@ -228,21 +229,11 @@ body main .socialMedia {
 }
 /* MULTISPORTS PAGE */
 main header {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 10rem;
-  background-color: #ffffff;
-  background-image: url("../images/ace1.jpg");
-  margin: 0 -2rem;
-}
-main header article {
-  background-color: rgba(255, 255, 255, 0.75);
-  height: 10rem;
-}
-main header article h2 {
-  padding-top: 2rem;
+  background-color: #f0f0ef;
+  background-image: url("");
+  height: 2rem;
+  margin-left: -2rem;
+  padding: 1.5rem 0 3rem 0;
 }
 main section article ul {
   font-size: 1.2rem;
@@ -360,10 +351,7 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
   }
   /* MULTISPORTS PAGE */
   main header {
-    margin: 0 -6rem;
-  }
-  main header article button {
-    width: 40%;
+    margin-left: -6rem;
   }
   main section article ul {
     padding-left: 3rem;
@@ -405,9 +393,8 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
     width: 65%;
   }
   body nav ul {
-    background-color: transparent;
     height: 5rem;
-    font-size: 1rem;
+    font-size: .9rem;
     font-weight: 700;
     line-height: 1;
     padding-left: 0;
