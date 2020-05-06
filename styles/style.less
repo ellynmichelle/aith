@@ -416,9 +416,6 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
     }
     
     body {
-        .section, .group {
-            padding: 0;
-        }
         header {
             h1 {
                 height: 5rem;
@@ -458,10 +455,13 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
             font-size: 16px;
             section {
                 article {
+                    padding: 1rem;
                     h2 {
                         font-size: 1.25rem;
                     }
-                    padding: 1rem;
+                    img {
+                        width: 15%;
+                    }
                 }
             }
         }
@@ -526,6 +526,23 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
             }
         }
     }
+    
+/* MULTISPORTS PAGE */
+main {
+    section {
+        h3:last-of-type {
+            padding-bottom: 2rem;
+        }
+        .event02, .event03, .event05, .event06 {
+            display: inline-block;
+        }
+        .event {
+            img {
+                width: 15rem;
+            }
+        }
+    }
+}
 
 
 }

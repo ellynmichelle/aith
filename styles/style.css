@@ -373,10 +373,6 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
   html {
     font-size: 18px;
   }
-  body .section,
-  body .group {
-    padding: 0;
-  }
   body header h1 {
     height: 5rem;
     width: 35%;
@@ -418,6 +414,9 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
   }
   body footer section article h2 {
     font-size: 1.25rem;
+  }
+  body footer section article img {
+    width: 15%;
   }
   /* HOME PAGE */
   body main section:nth-child(1) img:nth-child(2),
@@ -471,5 +470,18 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
   }
   body main .darkSection .carouselCircles {
     width: 25%;
+  }
+  /* MULTISPORTS PAGE */
+  main section h3:last-of-type {
+    padding-bottom: 2rem;
+  }
+  main section .event02,
+  main section .event03,
+  main section .event05,
+  main section .event06 {
+    display: inline-block;
+  }
+  main section .event img {
+    width: 15rem;
   }
 }

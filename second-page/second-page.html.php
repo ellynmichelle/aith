@@ -7,9 +7,9 @@
             <h2>H2 Heading</h2>
         </header>
 
-        <section>
+        <section class="section group">
             <h3>H3 Heading</h3>
-            <article class="event01">
+            <article class="col span_4_of_12 event event01">
                 <img src="../images/placeholder-circle.svg" alt="">
                 <ul>
                     <li><i class="fas fa-caret-right"></i> Lie on your belly and purr</li>
@@ -18,7 +18,7 @@
                     <li><i class="fas fa-caret-right"></i>Crash against wall</li>
                 </ul>
             </article>
-            <article class="event02">
+            <article class="col span_4_of_12 event event02">
                 <img src="../images/placeholder-circle.svg" alt="">
                 <ul>
                     <li><i class="fas fa-caret-right"></i> Lie on your belly and purr</li>
@@ -27,7 +27,7 @@
                     <li><i class="fas fa-caret-right"></i>Crash against wall</li>
                 </ul>
             </article>
-            <article class="event03">
+            <article class="col span_4_of_12 event event03">
                 <img src="../images/placeholder-circle.svg" alt="">
                 <ul>
                     <li><i class="fas fa-caret-right"></i> Lie on your belly and purr</li>
@@ -38,9 +38,9 @@
             </article>
         </section>
 
-        <section>
+        <section class="section group">
             <h3>H3 Heading</h3>
-            <article class="event04">
+            <article class="col span_4_of_12 event event04">
                 <img src="../images/placeholder-circle.svg" alt="">
                 <ul>
                     <li><i class="fas fa-caret-right"></i> Lie on your belly and purr</li>
@@ -49,7 +49,7 @@
                     <li><i class="fas fa-caret-right"></i>Crash against wall</li>
                 </ul>
             </article>
-            <article class="event05">
+            <article class="col span_4_of_12 event event05">
                 <img src="../images/placeholder-circle.svg" alt="">
                 <ul>
                     <li><i class="fas fa-caret-right"></i> Lie on your belly and purr</li>
@@ -58,7 +58,7 @@
                     <li><i class="fas fa-caret-right"></i>Crash against wall</li>
                 </ul>
             </article>
-            <article class="event06">
+            <article class="col span_4_of_12 event event06">
                 <img src="../images/placeholder-circle.svg" alt="">
                 <ul>
                     <li><i class="fas fa-caret-right"></i> Lie on your belly and purr</li>
@@ -69,9 +69,19 @@
             </article>
         </section>
 
-        <section>
-            <h3>H3 Heading</h3>
-            <article>
+        <section class="section group">
+            <article class="col span_6_of_12 event">
+                <h3>H3 Heading</h3>
+                <img src="../images/placeholder-circle.svg" alt="">
+                <ul>
+                    <li><i class="fas fa-caret-right"></i> Lie on your belly and purr</li>
+                    <li><i class="fas fa-caret-right"></i>Good morning sunshine sit in window</li>
+                    <li><i class="fas fa-caret-right"></i>Really likes hummus</li>
+                    <li><i class="fas fa-caret-right"></i>Crash against wall</li>
+                </ul>
+            </article>
+            <article class="col span_6_of_12 event">
+                <h3>H3 Heading</h3>
                 <img src="../images/placeholder-circle.svg" alt="">
                 <ul>
                     <li><i class="fas fa-caret-right"></i> Lie on your belly and purr</li>
@@ -82,9 +92,19 @@
             </article>
         </section>
 
-        <section>
-            <h3>H3 Heading</h3>
-            <article>
+        <section class="section group">
+            <article class="col span_6_of_12 event">
+                <h3>H3 Heading</h3>
+                <img src="../images/placeholder-circle.svg" alt="">
+                <ul>
+                    <li><i class="fas fa-caret-right"></i> Lie on your belly and purr</li>
+                    <li><i class="fas fa-caret-right"></i>Good morning sunshine sit in window</li>
+                    <li><i class="fas fa-caret-right"></i>Really likes hummus</li>
+                    <li><i class="fas fa-caret-right"></i>Crash against wall</li>
+                </ul>
+            </article>
+            <article class="col span_6_of_12 event">
+                <h3>H3 Heading</h3>
                 <img src="../images/placeholder-circle.svg" alt="">
                 <ul>
                     <li><i class="fas fa-caret-right"></i> Lie on your belly and purr</li>
@@ -95,36 +115,12 @@
             </article>
         </section>
 
-        <section>
+        <section class="section group">
             <h3>H3 Heading</h3>
-            <article>
+            <article class="col span_6_of_12 event">
                 <img src="../images/placeholder-circle.svg" alt="">
-                <ul>
-                    <li><i class="fas fa-caret-right"></i> Lie on your belly and purr</li>
-                    <li><i class="fas fa-caret-right"></i>Good morning sunshine sit in window</li>
-                    <li><i class="fas fa-caret-right"></i>Really likes hummus</li>
-                    <li><i class="fas fa-caret-right"></i>Crash against wall</li>
-                </ul>
             </article>
-        </section>
-
-        <section>
-            <h3>H3 Heading</h3>
-            <article>
-                <img src="../images/placeholder-circle.svg" alt="">
-                <ul>
-                    <li><i class="fas fa-caret-right"></i> Lie on your belly and purr</li>
-                    <li><i class="fas fa-caret-right"></i>Good morning sunshine sit in window</li>
-                    <li><i class="fas fa-caret-right"></i>Really likes hummus</li>
-                    <li><i class="fas fa-caret-right"></i>Crash against wall</li>
-                </ul>
-            </article>
-        </section>
-
-        <section>
-            <h3>H3 Heading</h3>
-            <article>
-                <img src="../images/placeholder-circle.svg" alt="">
+            <article class="col span_6_of_12 event">
                 <ul>
                     <li><i class="fas fa-caret-right"></i> Lie on your belly and purr</li>
                     <li><i class="fas fa-caret-right"></i>Good morning sunshine sit in window</li>
