@@ -10,7 +10,7 @@
         <section>
             <p>Small kitty warm kitty little balls of fur cat jumps and falls onto the couch purrs and wakes up in a new dimension filled with kitty litter.</p>
             <article>
-                <aside>
+                <aside class="first">
                     <h3>H3 Heading</h3>
                     <i class="fas fa-caret-down"></i>
                     <i class="fas fa-caret-up"></i>

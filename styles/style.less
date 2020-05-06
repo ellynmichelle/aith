@@ -527,22 +527,66 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
         }
     }
     
-/* MULTISPORTS PAGE */
-main {
-    section {
-        h3:last-of-type {
-            padding-bottom: 2rem;
-        }
-        .event02, .event03, .event05, .event06 {
-            display: inline-block;
-        }
-        .event {
-            img {
-                width: 15rem;
+    /* MULTISPORTS PAGE */
+    main {
+        section {
+            h3:last-of-type {
+                padding-bottom: 2rem;
+            }
+            .event02, .event03, .event05, .event06 {
+                display: inline-block;
+            }
+            .event {
+                img {
+                    width: 15rem;
+                }
             }
         }
     }
-}
+    
+    /* REGISTER & CONTACT PAGES */
+    main {
+        section {
+            form {
+                label {
+                    padding-left: 10rem;
+                }
+                article {
+                    margin: 0 auto;
+                    width: 50%;
+                    input {
+                        width: 10%;
+                    }
+                }
+            }
+        }
+    }
+    
+/* FAQs PAGE */
+    main {
+        section {
+            article {
+                aside {
+                    border: 1px solid @greyColor;
+                    border-top: none;
+                    padding-left: 1rem;
+                    h3 {
+                    }
+                    i {
+                        padding-left: 5rem;
+                    }
+                }
+                .first {
+                    border-top: 1px solid @greyColor;
+                }
+                .answer {
+                    background-color: @lightenGreyColor;
+                    padding: 2rem;
+                    padding-bottom: 1rem;
+                }
+            }
+        }
+    }
 
 
 }

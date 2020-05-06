@@ -484,4 +484,32 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
   main section .event img {
     width: 15rem;
   }
+  /* REGISTER & CONTACT PAGES */
+  main section form label {
+    padding-left: 10rem;
+  }
+  main section form article {
+    margin: 0 auto;
+    width: 50%;
+  }
+  main section form article input {
+    width: 10%;
+  }
+  /* FAQs PAGE */
+  main section article aside {
+    border: 1px solid #bebdbb;
+    border-top: none;
+    padding-left: 1rem;
+  }
+  main section article aside i {
+    padding-left: 5rem;
+  }
+  main section article .first {
+    border-top: 1px solid #bebdbb;
+  }
+  main section article .answer {
+    background-color: #f0f0ef;
+    padding: 2rem;
+    padding-bottom: 1rem;
+  }
 }
