@@ -52,9 +52,8 @@ body {
     }
     button {
         .specialFont();
-        border: 1px solid @lightenColor4;
-        border-radius: 2rem;
-        box-shadow: 2px 2px @color4;
+        border: 2px solid @lightenColor4;
+        border-radius: 10rem;
         background-color: @lightenColor4;
         color: @lightColor;
         font-size: 1.25rem;
@@ -120,9 +119,6 @@ body {
             li {
                 a {
                     .colorWhiteOpacity();
-                }
-                .currentLink {
-                    color: @lightColor;
                 }
             }
             li:last-of-type {
@@ -444,6 +440,10 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
                 li {
                     display: inline-block;
                     padding-right: 2rem;
+                    a:hover {
+                        color: @lightColor;
+                        transition-duration: .5s;
+                    }
                 }
                 li:last-of-type {
                     padding-bottom: 0;
@@ -492,6 +492,11 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
                     button {
                         margin-top: 2rem;
                         width: 40%;
+                    }
+                    button:hover {
+                        background-color: transparent;
+                        color: @lightenColor4;
+                        transition: .5s;
                     }
                 } 
                 section:first-of-type {
@@ -558,11 +563,15 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
                         width: 10%;
                     }
                 }
+                button:hover {
+                    background-color: red;
+                    transition: .5s;
+                }
             }
         }
     }
     
-/* FAQs PAGE */
+    /* FAQs PAGE */
     main {
         section {
             article {
@@ -578,6 +587,10 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
                 }
                 .first {
                     border-top: 1px solid @greyColor;
+                }
+                .question:hover {
+                    background-color: @lightenGreyColor;
+                    transition: .5s;
                 }
                 .answer {
                     background-color: @lightenGreyColor;

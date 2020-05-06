@@ -10,7 +10,7 @@
         <section>
             <p>Small kitty warm kitty little balls of fur cat jumps and falls onto the couch purrs and wakes up in a new dimension filled with kitty litter.</p>
             <article>
-                <aside class="first">
+                <aside class="first question">
                     <h3>H3 Heading</h3>
                     <i class="fas fa-caret-down"></i>
                     <i class="fas fa-caret-up"></i>
@@ -20,7 +20,7 @@
                 </aside>
             </article>
             <article>
-                <aside>
+                <aside class="question">
                     <h3>H3 Heading</h3>
                     <i class="fas fa-caret-down"></i>
                     <i class="fas fa-caret-up"></i>
@@ -30,7 +30,7 @@
                 </aside>
             </article>
             <article>
-                <aside>
+                <aside class="question">
                     <h3>H3 Heading</h3>
                     <i class="fas fa-caret-down"></i>
                     <i class="fas fa-caret-up"></i>

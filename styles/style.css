@@ -73,9 +73,8 @@ body img {
 }
 body button {
   font-family: 'Jost', sans-serif;
-  border: 1px solid #2ea7f4;
-  border-radius: 2rem;
-  box-shadow: 2px 2px #0971b3;
+  border: 2px solid #2ea7f4;
+  border-radius: 10rem;
   background-color: #2ea7f4;
   color: #ffffff;
   font-size: 1.25rem;
@@ -145,9 +144,6 @@ body nav ul {
 }
 body nav ul li a {
   color: rgba(255, 255, 255, 0.75);
-}
-body nav ul li .currentLink {
-  color: #ffffff;
 }
 body nav ul li:last-of-type {
   padding-bottom: 1rem;
@@ -402,6 +398,10 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
     display: inline-block;
     padding-right: 2rem;
   }
+  body nav ul li a:hover {
+    color: #ffffff;
+    transition-duration: .5s;
+  }
   body nav ul li:last-of-type {
     padding-bottom: 0;
     padding-right: 0;
@@ -440,6 +440,11 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
   body main .section section button {
     margin-top: 2rem;
     width: 40%;
+  }
+  body main .section section button:hover {
+    background-color: transparent;
+    color: #2ea7f4;
+    transition: .5s;
   }
   body main .section section:first-of-type {
     padding-right: 2rem;
@@ -495,6 +500,10 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
   main section form article input {
     width: 10%;
   }
+  main section form button:hover {
+    background-color: red;
+    transition: .5s;
+  }
   /* FAQs PAGE */
   main section article aside {
     border: 1px solid #bebdbb;
@@ -506,6 +515,10 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
   }
   main section article .first {
     border-top: 1px solid #bebdbb;
+  }
+  main section article .question:hover {
+    background-color: #f0f0ef;
+    transition: .5s;
   }
   main section article .answer {
     background-color: #f0f0ef;
