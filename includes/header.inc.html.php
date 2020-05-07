@@ -33,6 +33,6 @@ Programmer: Ellyn Culmsee
     
     <header class="homeHeader">
 
-        <p>Events for Every Body</p>
+        <p>Tagline Goes Here</p>
     
     </header>

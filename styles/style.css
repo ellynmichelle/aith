@@ -65,7 +65,7 @@ body h3 {
   font-size: 1.4rem;
 }
 body a {
-  color: #127573;
+  color: #ffffff;
   text-decoration: none;
 }
 body img {
@@ -353,6 +353,7 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
   /* MULTISPORTS PAGE */
   main header {
     margin-left: -6rem;
+    padding-top: 1rem;
   }
   main section article ul {
     padding-left: 3rem;
@@ -426,6 +427,10 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
   body footer section article img {
     width: 15%;
   }
+  body footer .weatherFeed {
+    display: block;
+    text-align: center;
+  }
   /* HOME PAGE */
   body main section:nth-child(1) img:nth-child(2),
   body main section:nth-child(2) img:nth-child(2),
@@ -485,6 +490,9 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
     width: 25%;
   }
   /* MULTISPORTS PAGE */
+  main header {
+    padding-top: 1rem;
+  }
   main section h3:last-of-type {
     padding-bottom: 2rem;
   }
