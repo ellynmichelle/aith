@@ -12,7 +12,7 @@
                     <img src="images/placeholder-circle.svg" alt="">
                 </article>
                 <p>The best thing in the universe is a cardboard box cereal boxes make for five star accommodation and the cat was chasing the mouse for kick up litter and cough hairball, eat toilet paper.</p>
-                <button>Call-to-Action</button>
+                <button onclick="window.location.href='<?php echo BASE_URL; ?>/third-page'">Call-to-Action</button>
             </section>
 
             <section class="col span_6_of_12">
@@ -23,7 +23,7 @@
                     <img src="images/placeholder-circle.svg" alt="">
                 </article>
                 <p>For meowing chowing and wowing but a nice warm laptop for me to sit on but cat walks in keyboard. Lick the other cats bring your owner a dead bird. I like standing on litter cuz i sits when i have spaces.</p>
-                <button>Call-to-Action</button>
+                <button onclick="window.location.href='<?php echo BASE_URL; ?>/third-page'">Call-to-Action</button>
             </section>
         </section>
 
