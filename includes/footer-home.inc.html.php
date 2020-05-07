@@ -37,6 +37,7 @@
 
 <script src="scripts/hamburger.js"></script>
 <script src="scripts/faq.js"></script>
+<script src="scripts/slideshow.js"></script>
 
 </body>
 

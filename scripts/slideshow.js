@@ -7,8 +7,8 @@
 "use strict"; // required by jslint
 
 /*
-File Name: hamburger.js
-Date: 04/30/20
+File Name: week8.js
+Date: 05/6/20
 Programmer: Ellyn Culmsee
 */
 
@@ -20,19 +20,24 @@ Programmer: Ellyn Culmsee
 
 // Enter your jQuery code below this line (put a blank line first).
 
-// Code for FAQ functionality
-$(document).ready(function () {
+$(document).ready(function() {
     
-    var question = $('.question');
-    var answer = $('.answer');
-    
-    $(".fa-caret-up").hide();
-    answer.hide();
-  
-    $(question).click(function(){
-        $(this).next().slideToggle();
-        $(this).children(".fa-caret-down").toggle();
-        $(this).children(".fa-caret-up").toggle();
+    var count = 0;
+    var images = ["images/ace1.jpg","images/ace2.jpg","images/ace3.jpg","images/ace4.jpg"];
+    var header = $(".homeHeader");
+
+    header.css("background-image","url("+images[count]+")");
+
+    setInterval(function() {
+        header.fadeOut(500, function() {
+        header.css("background-image","url("+images[count++]+")");
+        header.fadeIn(500);
     });
- 
+
+    if(count == images.length) {
+        count = 0;
+    };
+
+  },5000);
+    
 });
