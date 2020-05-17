@@ -254,7 +254,8 @@ main section form {
   padding: 1rem 0;
 }
 main section form input,
-main section form select {
+main section form select,
+main section form textarea {
   background-color: #f0f0ef;
   border: none;
   display: block;
@@ -266,6 +267,9 @@ main section form select {
 }
 main section form label {
   padding-left: 3rem;
+}
+main section form article {
+  padding-bottom: 1.5rem;
 }
 main section form article input,
 main section form article label {
