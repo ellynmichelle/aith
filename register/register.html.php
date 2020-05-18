@@ -29,36 +29,47 @@
                 <label for="emergencyNumber">Emergency Contact Phone Number:</label>
                 <input type="tel" id="emergencyNumber" name="emergencyNumber"><br>
                 <label for="satRole">Role for Saturday:</label>
-                <select name="satRole" id="satRole">
-                    <option></option>
-                    <option value="athlete">Athlete</option>
-                    <option value="volunteer">Volunteer</option>
-                    <option value="na">Not Attending</option>
-                </select><br>
-                <label for="satEvent">Saturday Events:</ label>
-                <select name="satEvent" id="satEvent">
-                    <option></option>
-                    <option value="long">Long Course Triathlon - 7:00am</option>
-                    <option value="olympic">Olympic Triathlon - 7:30am</option>
-                    <option value="10k">10k - 7:15am</option>
-                    <option value="half">Half Marathon - 7:15am</option>
-                    <option value="none">None</option>
-                </select><br>
-                <label for="sunRole">Role for Sunday:</label>
-                <select name="sunRole" id="sunRole">
-                    <option></option>
-                    <option value="athlete">Athlete</option>
-                    <option value="volunteer">Volunteer</option>
-                    <option value="na">Not Attending</option>
-                </select><br>
+                <article>
+                    <input type="radio" id="athlete" name="satRole" value="athlete">
+                    <label for="athlete">Athlete</label><br>
+                    <input type="radio" id="volunteer" name="satRole" value="volunteer">
+                    <label for="volunteer">Volunteer</label><br>
+                    <input type="radio" id="na" name="satRole" value="na">
+                    <label for="na">Not Attending</label><br>
+                </article>
+                <label for="satEvent">Saturday Events:</label>
+                <article>
+                    <input type="radio" id="longCourse" name="satEvent" value="longCourse">
+                    <label for="longCourse">7:00am Long Course Triathlon</label><br>
+                    <input type="radio" id="10k" name="satEvent" value="10k">
+                    <label for="10k">7:15am 10k</label><br>
+                    <input type="radio" id="half" name="satEvent" value="half">
+                    <label for="half">7:15am Half Marathon</label><br>
+                    <input type="radio" id="olympic" name="satEvent" value="olympic">
+                    <label for="olympic">7:30am Olympic Triathlon</label><br>
+                    <input type="radio" id="none" name="satEvent" value="none">
+                    <label for="none">None</label><br>
+                </article>
+                <label for="satRole">Role for Sunday:</label>
+                <article>
+                    <input type="radio" id="athlete" name="sunRole" value="athlete">
+                    <label for="athlete">Athlete</label><br>
+                    <input type="radio" id="volunteer" name="sunRole" value="volunteer">
+                    <label for="volunteer">Volunteer</label><br>
+                    <input type="radio" id="na" name="sunRole" value="na">
+                    <label for="na">Not Attending</label><br>
+                </article>
                 <label for="sunEvent">Sunday Events:</label>
-                <select name="sunEvent" id="sumEvent">
-                    <option></option>
-                    <option value="sprint">Sprint Triathlon - 8:00am</option>
-                    <option value="try">Try-a-Tri - 8:20am</option>
-                    <option value="splash">Splash n Dash - 12:00pm</option>
-                    <option value="none">None</option>
-                </select><br>
+                <article>
+                    <input type="radio" id="sprint" name="sunEvent" value="sprint">
+                    <label for="sprint">8:00am Sprint Triathlon</label><br>
+                    <input type="radio" id="tryatri" name="sunEvent" value="tryatri">
+                    <label for="tryatri">8:20am Try-a-Tri</label><br>
+                    <input type="radio" id="splashndash" name="sunEvent" value="splashndash">
+                    <label for="splashndash">12:00pm Splash n Dash</label><br>
+                    <input type="radio" id="none" name="sunEvent" value="none">
+                    <label for="none">None</label><br>
+                </article>
                 <label for="comment">Comments:</label>
                 <textarea name="comment">Please list any special accommodations that might be needed.</textarea>
                 <button>Submit</button>
