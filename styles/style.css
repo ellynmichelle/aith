@@ -269,6 +269,7 @@ main section form label {
 main section form select {
   background-color: #f0f0ef;
   border: 1px solid #bebdbb;
+  font-size: 1rem;
   margin: 1rem 0;
   padding: .5rem;
   width: 100%;

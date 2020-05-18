@@ -50,7 +50,7 @@
             exit();
         }
         // load the thank you page after the INSERT runs
-        include 'register.html.php';
+        include 'success.html.php';
         // Add an else to load the initial page if the initial (line 19) if statement is false
     } else {
         include 'register.html.php'; //Modify this to include the initial file for this folder
