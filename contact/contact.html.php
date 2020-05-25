@@ -4,12 +4,12 @@
     <main>
     
         <header>
-                <h2>H2 Heading</h2>
+                <h2>Contact</h2>
         </header>
 
         <section>
-            <h3>H3 Heading</h3>
-            <p>Small kitty warm kitty little balls of fur cat jumps and falls onto the couch purrs and wakes up in a new dimension filled with kitty litter.</p>
+            <h3>Get in Touch</h3>
+            <p>If you have any questions or comments, please dont hesitate to get in touch.</p>
             <form method="post" action=" ">
                 <label for="fullName">Name:</label>
                 <input type="text" id="fullName" name="fullName"><br>

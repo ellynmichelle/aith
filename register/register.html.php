@@ -4,12 +4,23 @@
     <main>
     
         <header>
-                <h2>H2 Heading</h2>
+                <h2>Registration</h2>
         </header>
 
         <section>
-            <h3>H3 Heading</h3>
-            <p>Small kitty warm kitty little balls of fur cat jumps and falls onto the couch purrs and wakes up in a new dimension filled with kitty litter.</p>
+            <h3>Register as an Athlete or Volunteer</h3>
+            <p>All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. Packet pick up hours: Thursday 8-5, Friday 9-noon. No day of event packet pick up.</p>
+            <p>COURSE DETAILS WATER TEMPERATURE is expected to be between 62 &amp; 66 degrees. The temperature will be taken on Friday and the morning of the race. Wetsuits are recommended.</p>
+            <h3>Cost Includes</h3>
+            <ul>
+                <li>Food &amp; Beer</li>
+                <li>Access to the weekend's live entertainment &amp; Fitness Expo</li>
+                <li>Commemorative Finisher medal</li>
+                <li>Accurate Chip Timing for competitive races</li>
+                <li>Ace in the Hole Multisport Weekend Tech Shirt</li>
+                <li>Post-event party &amp; entertainment</li>
+            </ul>
+            <p>NOTE: Tech shirts guaranteed to pre-registered participants only. </p>
             <form method="post" action=" ">
                 <label for="fullName">Name:</label>
                 <input type="text" id="fullName" name="fullName"><br>
@@ -40,13 +51,13 @@
                 <label for="satEvent">Saturday Events:</label>
                 <article>
                     <input type="radio" id="longCourse" name="satEvent" value="longCourse">
-                    <label for="longCourse">7:00am Long Course Triathlon</label><br>
+                    <label for="longCourse">7:00am Long Course Triathlon $240</label><br>
                     <input type="radio" id="10k" name="satEvent" value="10k">
-                    <label for="10k">7:15am 10k</label><br>
+                    <label for="10k">7:15am 10k $50</label><br>
                     <input type="radio" id="half" name="satEvent" value="half">
-                    <label for="half">7:15am Half Marathon</label><br>
+                    <label for="half">7:15am Half Marathon $75</label><br>
                     <input type="radio" id="olympic" name="satEvent" value="olympic">
-                    <label for="olympic">7:30am Olympic Triathlon</label><br>
+                    <label for="olympic">7:30am Olympic Triathlon $110</label><br>
                     <input type="radio" id="none" name="satEvent" value="none">
                     <label for="none">None</label><br>
                 </article>
@@ -62,11 +73,11 @@
                 <label for="sunEvent">Sunday Events:</label>
                 <article>
                     <input type="radio" id="sprint" name="sunEvent" value="sprint">
-                    <label for="sprint">8:00am Sprint Triathlon</label><br>
+                    <label for="sprint">8:00am Sprint Triathlon $90</label><br>
                     <input type="radio" id="tryatri" name="sunEvent" value="tryatri">
-                    <label for="tryatri">8:20am Try-a-Tri</label><br>
+                    <label for="tryatri">8:20am Try-a-Tri $65</label><br>
                     <input type="radio" id="splashndash" name="sunEvent" value="splashndash">
-                    <label for="splashndash">12:00pm Splash n Dash</label><br>
+                    <label for="splashndash">12:00pm Splash n Dash Free with Adult Registration or $25</label><br>
                     <input type="radio" id="none" name="sunEvent" value="none">
                     <label for="none">None</label><br>
                 </article>

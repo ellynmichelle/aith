@@ -10,5 +10,5 @@
         <li><a href="<?php echo BASE_URL; ?>/faqs">FAQs</a></li>
         <li><a href="<?php echo BASE_URL; ?>/contact">Contact</a></li>
     </ul>
-    <a href="<?php echo BASE_URL; ?>"><img src="../images/logotype.png"></a>
+    <a href="<?php echo BASE_URL; ?>"><img src="images/logotype.png"></a>
 </nav>

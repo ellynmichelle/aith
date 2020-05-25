@@ -23,7 +23,7 @@ Programmer: Ellyn Culmsee
 $(document).ready(function() {
     
     var count = 0;
-    var images = ["images/placeholder-rectangle.svg"/*,"images/ace1.jpg","images/ace2.jpg","images/ace3.jpg","images/ace4.jpg"*/];
+    var images = ["images/ace1.jpg","images/ace2.jpg","images/ace4.jpg","images/ace5.jpg"];
     var header = $(".homeHeader");
 
     header.css("background-image","url("+images[count]+")");

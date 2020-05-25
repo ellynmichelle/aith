@@ -87,7 +87,7 @@ body header {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #212121;
-  padding-top: 32rem;
+  padding-top: 28rem;
   height: 100vh;
   width: 100vw;
 }
@@ -143,14 +143,11 @@ body nav ul li a {
 body nav ul li:last-of-type {
   padding-bottom: 1rem;
 }
-body nav h1 {
-  color: #ffffff;
-  line-height: 1.2;
+body nav img {
   margin: 0 auto;
   position: absolute;
-  text-transform: none;
-  top: .5rem;
-  width: 100%;
+  right: 1rem;
+  width: 50%;
   z-index: 90;
 }
 body footer {
@@ -167,10 +164,9 @@ body footer article h2 {
   padding-bottom: 1rem;
   text-align: left;
 }
-body footer article img {
-  display: inline;
+body footer article i {
+  font-size: 4rem;
   padding-right: 1rem;
-  width: 25%;
 }
 body footer .weatherFeed {
   display: none;
@@ -219,11 +215,11 @@ body main .darkSection figure figcaption {
 body main .darkSection .carouselCircles {
   margin: 0 auto;
   padding-top: 1rem;
+  text-align: center;
   width: 35%;
 }
-body main .darkSection .carouselCircles img {
-  display: inline;
-  width: 21%;
+body main .darkSection .carouselCircles i {
+  font-size: .75rem;
 }
 body main .socialMedia {
   display: none;
@@ -353,9 +349,6 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
   body main .darkSection .carouselCircles {
     width: 12%;
   }
-  body main .darkSection .carouselCircles img {
-    width: 20%;
-  }
   body main .socialMedia {
     display: block;
     margin: 0 -6rem;
@@ -363,10 +356,9 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
   body main .socialMedia article {
     text-align: center;
   }
-  body main .socialMedia article a img {
-    display: inline-block;
+  body main .socialMedia article i {
+    font-size: 4rem;
     padding: 1rem;
-    width: 22%;
   }
   /* MULTISPORTS PAGE */
   main header {
@@ -427,10 +419,11 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
   body nav ul li:last-of-type {
     padding-bottom: 0;
   }
-  body nav h1 {
-    left: 0;
-    padding-right: 2rem;
-    width: 30%;
+  body nav img {
+    left: 1rem;
+    margin: 0;
+    top: 0;
+    width: 10rem;
     z-index: 110;
   }
   body footer {

@@ -63,7 +63,7 @@ body {
     header {
         .heroFixed();
         background-color: @darkColor;
-        padding-top: 32rem;
+        padding-top: 28rem;
         height: 100vh;
         width: 100vw;
         p {
@@ -119,14 +119,11 @@ body {
                 padding-bottom: 1rem;
             }
         }
-        h1 {
-            color: @lightColor;
-            line-height: 1.2;
+        img {
             margin: 0 auto;
             position: absolute;
-            text-transform: none;
-            top: .5rem;
-            width: 100%;
+            right: 1rem;
+            width: 50%;
             z-index: 90;
         }
     }
@@ -141,10 +138,9 @@ body {
                 padding-bottom: 1rem;
                 text-align: left;
             }
-            img {
-                display: inline;
+            i {
+                font-size: 4rem;
                 padding-right: 1rem;
-                width: 25%;
             }
         }
         .weatherFeed {
@@ -196,10 +192,10 @@ body {
             .carouselCircles {
                 margin: 0 auto;
                 padding-top: 1rem;
+                text-align: center;
                 width: 35%;
-                img {
-                    display: inline;
-                    width: 21%;
+                i {
+                    font-size: .75rem;
                 }
             }
         }
@@ -354,9 +350,6 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
                 }
                 .carouselCircles {
                     width: 12%;
-                    img {
-                        width: 20%;
-                    }
                 }
             }
             .socialMedia {
@@ -364,12 +357,9 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
                 margin: 0 -6rem;
                 article {
                     text-align: center;
-                    a {
-                        img {
-                            display: inline-block;
-                            padding: 1rem;
-                            width: 22%;
-                        }
+                    i {
+                        font-size: 4rem;
+                        padding: 1rem;
                     }
                 }
             }
@@ -464,10 +454,11 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
                     padding-bottom: 0;
                 }
             }
-            h1 {
-                left: 0;
-                padding-right: 2rem;
-                width: 30%;
+            img {
+                left: 1rem;
+                margin: 0;
+                top: 0;
+                width: 10rem;
                 z-index: 110;
             }
         }
@@ -551,6 +542,12 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
                     }
                 .carouselCircles {
                     width: 25%;
+                }
+            }
+            .socialMedia {
+                article {
+                    i {
+                    }
                 }
             }
         }
