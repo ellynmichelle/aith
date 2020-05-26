@@ -37,15 +37,15 @@
             <article class="section group">
                 <figure class="col span_4_of_12">
                     <img src="images/rectangle01.png" alt="A woman with forearm crutches walking in a race.">
-                    <figcaption>"Purr when being pet i like fish stinky cat. Lick the other cats bring your owner a dead bird so jump around on couch, meow constantly until given food."</figcaption>
+                    <figcaption>"I had such a great time at the Multisport Weekend! I will definitely be attending next year."</figcaption>
                 </figure>
                 <figure class="col span_4_of_12">
                     <img src="images/rectangle02.png" alt="A woman running down a gravel road in a race.">
-                    <figcaption>"I can haz decide to want nothing to do with my owner today, loved it, hated it, loved it, hated it, and do i like standing on litter cuz i sits when i have spaces."</figcaption>
+                    <figcaption>"I met so many nice people at my first Multisport Weekend. Can't wait until next year!"</figcaption>
                 </figure>
                 <figure class="col span_4_of_12">
                     <img src="images/rectangle03.png" alt="A man running in a race.">
-                    <figcaption>"My cat buddies have no litter i live in luxury cat life for swat at dog, but instead of drinking water from the cat bowl."</figcaption>
+                    <figcaption>"The Multisport Weekend is a great excuse to make and meet my athletic goals."</figcaption>
                 </figure>
             </article>
             <article class="carouselCircles">

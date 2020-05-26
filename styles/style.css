@@ -73,7 +73,8 @@ body h4 {
   padding-top: 2rem;
 }
 body a {
-  color: #ffffff;
+  color: #cc0000;
+  font-weight: 700;
   text-decoration: none;
 }
 body ul {

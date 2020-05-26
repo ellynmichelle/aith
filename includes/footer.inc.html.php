@@ -14,7 +14,7 @@
     <section class="section group">
          <article class="col span_6_of_12">
             <h2>Get Involved</h2>
-            <p>Get my claw stuck in the dog's ear bathe private parts with tongue then lick owner's face but hiss and stare at nothing then run suddenly away for then cats take over the world hopped up on catnip.</p>
+            <p>Consider becoming an Ace in the Hole volunteer. <a href="register">Register</a> now.</p>
         </article>
         <article class="col span_6_of_12">
             <h2>Connect</h2>
