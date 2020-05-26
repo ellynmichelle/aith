@@ -19,11 +19,11 @@ body {
     main, footer {
         padding: 0 2rem;
     }
-    h1, h2, h3 {
+    h1, h2, h3, h4 {
         .headingFont();
     }
-    h1, h2, h3, p, img {
-        padding-bottom: 1rem;
+    h1, h2, h3, h4, p, ul, img {
+        padding: 1rem 0;
     }
     p, ul {
         line-height: 1.6;
@@ -43,9 +43,24 @@ body {
         color: @color4;
         font-size: 1.4rem;
     }
+    h4 {
+        color: @darkColor;
+        font-size: 1.25rem;
+        padding-top: 2rem;
+    }
     a {
         color: @lightColor;
         text-decoration: none;
+    }
+    ul {
+        font-size: .8rem;
+        li {
+            padding-bottom: .25rem;
+            i {
+                color: @lightenColor4;
+                padding-right: 1rem;
+            }
+        }
     }
     img {
         padding-top: 1rem;
@@ -167,17 +182,31 @@ body {
             }
         }
         section {
-            padding-bottom: 2rem;
-            padding-top: 2rem;
-            img {
+            padding: 4rem 0 0 0;
+            p {
+                padding: 1rem 0;
                 text-align: center;
-                width: 75%;
+            }
+            section {
+                padding: 0;
+                padding-bottom: 4rem;
+                article {
+                    img {
+                        text-align: center;
+                        width: 75%;
+                    }
+                }
+                button {
+                    margin-bottom: 1rem;
+                    margin-top: 1rem;
+                }
             }
         }
         .darkSection {
             .colorWhiteOpacity();
             background-color: @darkColor;
             margin: 0 -2rem;
+            padding: 4rem 2rem;
             h2 {
                .colorWhiteOpacity();
             }
@@ -186,7 +215,8 @@ body {
             }
             figure {
                 figcaption {
-                    padding: 0 2rem;
+                    padding: 0 1rem;
+                    text-align: center;
                 }
             }
             .carouselCircles {
@@ -214,18 +244,46 @@ main {
         margin-left: -2rem;
         padding: 1.5rem 0 3rem 0;
     }
-    section {
-        article {
-            ul {
-                font-size: 1.2rem;
-                i {
-                    color: @lightenColor4;
-                    padding-right: 1rem;
-                }
+    .eventSection:nth-of-type(odd) {
+        background-color: @lightColor;
+    }
+    .eventSection:nth-of-type(even) {
+        background-color: rgba(9, 113, 175, .07);
+    }
+    .eventSection {
+        margin: 0 -2rem;
+        padding: 2rem;
+         .event {
+            padding: 0;
+            p {
+                padding-left: 0;
+                padding-right: 0;
             }
         }
-        .event02, .event03, .event05, .event06 {
-            display: none;
+    }
+    section {
+        article {
+            padding-bottom: 2rem;
+            table {
+                font-size: .8rem;
+                margin: 0 auto;
+                margin-top: 2rem;
+                tr {
+                    th:first-of-type, .na {
+                        color: transparent;
+                    }
+                    td:first-of-type, th {
+                        font-weight: 700;
+                        padding: 0;
+                    }
+                    th {
+                        text-align: left;
+                    }
+                    td {
+                        padding: .5rem .25rem;
+                    }
+                }
+            }
         }
     }
 }
@@ -277,7 +335,7 @@ main {
                 border: none;
                 border-radius: 0;
                 box-shadow: none;
-                margin-top: 1rem;
+                margin: 2rem auto;
             }
         }
     }
@@ -326,6 +384,9 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
         header {
             padding-top: 45rem;
         }
+        .altHeader {
+            height: 7.5rem;
+        }
         footer {
             padding-top: 6rem;
         }
@@ -335,10 +396,17 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
     body {
         main {
             section {
-                padding-bottom: 4rem;
-                padding-top: 4rem;
-                img {
-                    width: 70%;
+                    padding-left: 3rem;
+                    padding-right: 3rem;
+                section {
+                    article {
+                        img {
+                            width: 70%;
+                        }
+                    }
+                    button {
+                        width: 33%;
+                    }
                 }
             }
             .darkSection {
@@ -355,6 +423,7 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
             .socialMedia {
                 display: block;
                 margin: 0 -6rem;
+                padding: 4rem 3rem;
                 article {
                     text-align: center;
                     i {
@@ -372,12 +441,10 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
             margin-left: -6rem;
             padding-top: 1rem;
         }
-        section {
-            article {
-                ul {
-                    padding-left: 3rem;
-                }
-            }
+        .eventSection {
+            margin: 0 -6rem;
+            padding-left: 4rem;
+            padding-right: 4rem;
         }
     }
     
@@ -386,7 +453,6 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
         section {
             form {
                 button {
-                    margin-top: 2rem;
                     width: 50%;
                 }
             }
@@ -428,6 +494,9 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
                 margin: 0 auto;
                 width: 40%;
             }
+        }
+        .altHeader {
+            height: 5rem;
         }
         nav {
             right: 0;
@@ -490,22 +559,24 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
                     display: inline;
                 }
             }
-            .section {
+            section {
+                p {
+                    padding-left: 3rem;
+                    padding-right: 3rem;
+                }
                 section {
-                    h2 {
-                        padding-bottom: 2rem;
-                    }
                     article {
                         padding-bottom: 2rem;
                         text-align: center;
                         img {
                             display: inline-block;
                             padding: .5rem;
-                            width: 30%;
+                            width: 32%;
                         }
                     }
                     button {
-                        margin-top: 2rem;
+                        margin-bottom: 2rem;
+                        margin-top: 0;
                         width: 40%;
                     }
                     button:hover {
@@ -557,18 +628,40 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
     main {
         header {
             padding-top: 1rem;
+            height: 5.5rem;
         }
         section {
             h3:last-of-type {
                 padding-bottom: 2rem;
             }
-            .event02, .event03, .event05, .event06 {
-                display: inline-block;
+            article {
+                table {
+                    font-size: 1rem;
+                    margin-bottom: 3rem;
+                    tr {
+                        th {
+                            padding: 1rem 1rem;
+                        }
+                        td {
+                            padding: .75rem 1rem;
+                        }
+                    }
+                }
             }
+        }
+        .eventSection {
+            padding-left: 6rem;
+            padding-right: 6rem;
             .event {
+                padding: 0 2rem;
                 img {
                     width: 15rem;
                 }
+            }
+        }
+        .eventSection:last-of-type {
+            p {
+                padding: 1rem 10rem;
             }
         }
     }
@@ -576,6 +669,11 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
     /* REGISTER & CONTACT PAGES */
     main {
         section {
+            ul {
+                font-size: .9rem;
+                margin: 0 auto;
+                width: 45%;
+            }
             form {
                 margin: 0 auto;
                 width: 50%;
@@ -590,7 +688,8 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
     /* FAQs PAGE */
     main {
         section {
-            article {
+            .faq {
+                padding: 0;
                 aside {
                     border: 1px solid @greyColor;
                     border-top: none;
@@ -612,7 +711,13 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
                     background-color: rgba(240, 240, 240, .3);
                     padding: 2rem;
                     padding-bottom: 1rem;
+                    ul {
+                        width: 75%;
+                    }
                 }
+            }
+            .faq:last-of-type {
+                padding-bottom: 4rem;
             }
         }
     }

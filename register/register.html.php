@@ -8,17 +8,17 @@
         </header>
 
         <section>
-            <h3>Register as an Athlete or Volunteer</h3>
+            <h3>Athlete and Volunteer Registration</h3>
             <p>All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. Packet pick up hours: Thursday 8-5, Friday 9-noon. No day of event packet pick up.</p>
             <p>COURSE DETAILS WATER TEMPERATURE is expected to be between 62 &amp; 66 degrees. The temperature will be taken on Friday and the morning of the race. Wetsuits are recommended.</p>
             <h3>Cost Includes</h3>
             <ul>
-                <li>Food &amp; Beer</li>
-                <li>Access to the weekend's live entertainment &amp; Fitness Expo</li>
-                <li>Commemorative Finisher medal</li>
-                <li>Accurate Chip Timing for competitive races</li>
-                <li>Ace in the Hole Multisport Weekend Tech Shirt</li>
-                <li>Post-event party &amp; entertainment</li>
+                <li><i class="fas fa-angle-right"></i>Food &amp; Beer</li>
+                <li><i class="fas fa-angle-right"></i>Access to the weekend's live entertainment &amp; Fitness Expo</li>
+                <li><i class="fas fa-angle-right"></i>Commemorative Finisher medal</li>
+                <li><i class="fas fa-angle-right"></i>Accurate Chip Timing for competitive races</li>
+                <li><i class="fas fa-angle-right"></i>Ace in the Hole Multisport Weekend Tech Shirt</li>
+                <li><i class="fas fa-angle-right"></i>Post-event party &amp; entertainment</li>
             </ul>
             <p>NOTE: Tech shirts guaranteed to pre-registered participants only. </p>
             <form method="post" action=" ">

@@ -3,11 +3,11 @@
     <section class="section group">
         <article class="col span_6_of_12">
             <h1>Ace in the Hole</h1>
-            <p>Destroy couch as revenge pet me pet me don't pet me or pelt around the house and up and down stairs chasing phantoms. Hack stinky cat.</p>
+            <p>Ace in the Hole Multisport Events is proud to offer running and triathlon events to athletes of all shapes and sizes, national origins, gender identifications and cultural backgrounds. We offer Events for Every Body.</p>
         </article>
         <article class="col span_6_of_12">
             <h2>Find Out More</h2>
-            <p>Friends are not food this human feeds me, i should be a god munch, munch, chomp, chomp yet a nice warm laptop for me to sit on scratch the box.</p>
+            <p>Find out more about our annual <a href="/multisport">Multisports Event</a>.</p>
         </article>
     </section>
 

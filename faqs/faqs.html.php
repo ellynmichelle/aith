@@ -9,7 +9,7 @@
 
         <section>
             <p>Please find answers to our frequently asked questions below.</p>
-            <article>
+            <article class="faq">
                 <aside class="first question">
                     <h3>What are the Rules?</h3>
                     <i class="fas fa-caret-down"></i>
@@ -19,7 +19,7 @@
                     <p>We currently adhere to the USAT Rules for Triathlon &amp; Duathlon. Important rules include no drafting, you must wear a helmet and music is ABSOLUTELY NOT allowed during the bike for obvious safety reasons.</p>
                 </aside>
             </article>
-            <article>
+            <article class="faq">
                 <aside class="question">
                     <h3>Can I use a personal music device while cycling?</h3>
                     <i class="fas fa-caret-down"></i>
@@ -29,7 +29,7 @@
                     <p>Absolutely no music devices are allowed during the bike segment for obvious safety risks and will result in immediate disqualification.</p>
                 </aside>
             </article>
-            <article>
+            <article class="faq">
                 <aside class="question">
                     <h3>Can I use a personal music device while running?</h3>
                     <i class="fas fa-caret-down"></i>
@@ -44,7 +44,7 @@
                     </ul>
                 </aside>
             </article>
-           <article>
+           <article class="faq">
                 <aside class="question">
                     <h3>Do I need to wear a wetsuit?</h3>
                     <i class="fas fa-caret-down"></i>
@@ -54,7 +54,7 @@
                     <p>No, you do not need to wear a wetsuit. Many will not wear a wetsuit while others will choose to wear a wetsuit because of the buoyancy and warmth factor.</p>
                 </aside>
             </article>
-            <article>
+            <article class="faq">
                 <aside class="question">
                     <h3>Do I have to use a road or racing bike?</h3>
                     <i class="fas fa-caret-down"></i>

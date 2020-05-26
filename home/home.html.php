@@ -3,29 +3,32 @@
     
     <main>
         
-        <p>Ace in the Hole Multisport Events is proud to offer running and triathlon events to athletes of all shapes and sizes, national origins, gender identifications and cultural backgrounds. We offer Events for Every Body.</p>
+        <section>
+            <h2>About Ace in the Hole</h2>
+            <p>Ace in the Hole Multisport Events is proud to offer running and triathlon events to athletes of all shapes and sizes, national origins, gender identifications and cultural backgrounds. We offer Events for Every Body.</p>
+        </section>
 
         <section class="section group">
             <section class="col span_6_of_12">
-                <h2>Become an Athlete</h2>
+                <h3>Become an Athlete</h3>
+                <button onclick="window.location.href='<?php echo BASE_URL; ?>/third-page'">Register</button>
                 <article>
                     <img src="images/circle01.png" alt="A man riding a bike.">
                     <img src="images/circle02.png" alt="A woman running in a race.">
                     <img src="images/circle03.png" alt="A man riding a bike.">
                 </article>
-                <p>The best thing in the universe is a cardboard box cereal boxes make for five star accommodation and the cat was chasing the mouse for kick up litter and cough hairball, eat toilet paper.</p>
-                <button onclick="window.location.href='<?php echo BASE_URL; ?>/third-page'">Register</button>
+                <p>Join us for our annual Multisports Weekend! There is something for every level of athletic ability. Come to experience your first race or come to compete to win, but make sure you come to have fun!</p>
             </section>
 
             <section class="col span_6_of_12">
-                <h2>Become a Volunteer</h2>
+                <h3>Become a Volunteer</h3>
+                <button onclick="window.location.href='<?php echo BASE_URL; ?>/third-page'">Register</button>
                 <article>
                     <img src="images/circle04.png" alt="A woman and two men in athletic gear standing together.">
                     <img src="images/circle05.png" alt="An aerial view of the finish line of a race.">
                     <img src="images/circle06.png" alt="An aerial view of a race.">
                 </article>
-                <p>For meowing chowing and wowing but a nice warm laptop for me to sit on but cat walks in keyboard. Lick the other cats bring your owner a dead bird. I like standing on litter cuz i sits when i have spaces.</p>
-                <button onclick="window.location.href='<?php echo BASE_URL; ?>/third-page'">Register</button>
+                <p>We are in need of volunteers. Join us as a volunteer or sign up to be a volunteer and athlete! You can participate one day as a volunteer and the other as an athlete.</p>
             </section>
         </section>
 

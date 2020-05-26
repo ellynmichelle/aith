@@ -54,10 +54,4 @@ $(document).ready(function () {
         
     });
     
-    $("li").on("click", function () {
-        
-        $(".navigation").slideToggle();
-        
-    });
-    
 });

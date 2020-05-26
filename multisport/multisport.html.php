@@ -35,82 +35,76 @@
                     <tr>
                         <td>7:00am</td>
                         <td>Long Course Triathlon</td>
-                        <td>n/a</td>
+                        <td class="na">n/a</td>
                     </tr>
                     <tr>
                         <td>7:15am</td>
                         <td>10k<br>Half Marathon</td>
-                        <td>n/a</td>
+                        <td class="na">n/a</td>
                     </tr>
                     <tr>
                         <td>7:30am</td>
                         <td>Olympic Triathlon</td>
-                        <td>n/a</td>
+                        <td class="na">n/a</td>
                     </tr>
                     <tr>
                         <td>8:00am</td>
-                        <td>n/a</td>
+                        <td class="na">n/a</td>
                         <td>Sprint Triathlon</td>
                     </tr>
                     <tr>
                         <td>8:20am</td>
-                        <td>n/a</td>
+                        <td class="na">n/a</td>
                         <td>Try-a-Tri</td>
                     </tr>
                     <tr>
                         <td>12:00pm</td>
-                        <td>n/a</td>
+                        <td class="na">n/a</td>
                         <td>Splash n' Dash</td>
                     </tr>
                 </table>
             </article>
         </section>
 
-        <section class="section group">
+        <section class="section group eventSection">
             <h3>Long Course</h3>
-            <article class="col span_4_of_12 event event01">
+            <article class="col span_4_of_12 event">
                 <img src="../images/circle01.png" alt="">
                 <h4>Long Course Swim - 1.2 miles</h4>
                 <p>Participants will make two counter-clockwise loops. Large buoys will mark the turn points. Kayakers will be positioned on the water to support the swimmers. Medical support will be present on the beach. </p>
-                <ul>
-                    <li><i class="fas fa-caret-right"></i>Participants will make two counter-clockwise loops</li>
-                    <li><i class="fas fa-caret-right"></i>Large buoys will mark the turn points</li>
-                    <li><i class="fas fa-caret-right"></i>Kayakers will be positioned on the water to support the swimmers</li>
-                    <li><i class="fas fa-caret-right"></i>Medical support will be present on the beach</li>
-                </ul>
             </article>
-            <article class="col span_4_of_12 event event02">
+            <article class="col span_4_of_12 event">
                 <img src="../images//circle02.png" alt="">
                 <h4>Long Course Bike - 58 miles</h4>
                 <p>A scenic point-to-point course that travels over gently rolling hills prior to three hard climbs. The bike course will be marked with large directional signage and there will be course marshals at key intersections to help direct you.</p>
             </article>
-            <article class="col span_4_of_12 event event03">
+            <article class="col span_4_of_12 event">
                 <img src="../images//circle03.png" alt="">
                 <h4>Long Course Run - 13.1 miles</h4>
                 <p>A mostly flat loop course on widely paved bike paths that traverse through and around this beautiful and scenic destination resort (two hills total with a minimal elevation gain).</p>
             </article>
         </section>
 
-        <section class="section group">
+        <section class="section group eventSection">
             <h3>Olympic</h3>
-            <article class="col span_4_of_12 event event04">
+            <article class="col span_4_of_12 event">
                 <img src="../images//circle04.png" alt="">
                 <h4>Olympic Swim - 1,500 meters</h4>
                 <p>Participants will make two counter-clockwise loops. Large buoys will mark the turn points. Kayakers will be positioned on the water to support the swimmers. Medical support will be present on the beach.</p>
             </article>
-            <article class="col span_4_of_12 event event05">
+            <article class="col span_4_of_12 event">
                 <img src="../images//circle05.png" alt="">
                 <h4>Olympic Bike - 28 miles</h4>
                 <p>A scenic point-to-point course that travels over gently rolling hills. The bike course will be marked with large directional signage and course marshals will be present at key intersections.</p>
             </article>
-            <article class="col span_4_of_12 event event06">
+            <article class="col span_4_of_12 event">
                 <img src="../images//circle06.png" alt="">
                 <h4>Olympic Run - 10k</h4>
                 <p>A mostly flat loop course on widely paved bike paths that traverse through and around this beautiful and scenic destination resort (one hill total with a minimal elevation gain).</p>
             </article>
         </section>
 
-        <section class="section group">
+        <section class="section group eventSection">
             <article class="col span_6_of_12 event">
                 <h3>Sprint</h3>
                 <img src="../images//circle01.png" alt="">
@@ -123,7 +117,7 @@
             </article>
         </section>
 
-        <section class="section group">
+        <section class="section group eventSection">
             <article class="col span_6_of_12 event">
                 <h3>Half Marathon Course</h3>
                 <img src="../images//circle03.png" alt="">
@@ -136,12 +130,10 @@
             </article>
         </section>
 
-        <section class="section group">
+        <section class="section group eventSection">
             <h3>Splash n' Dash</h3>
-            <article class="col span_6_of_12 event">
+            <article class="col span_12_of_12 event">
                 <img src="../images//circle05.png" alt="">
-            </article>
-            <article class="col span_6_of_12 event">
                 <p>Kids event for participants ages 4 to 15. This is a 100 yard swim and a 50 yard dash. It is free if an adult registers for an event otherwise it is $25.</p>
             </article>
         </section>

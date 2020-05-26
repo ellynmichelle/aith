@@ -31,7 +31,8 @@ body footer {
 }
 body h1,
 body h2,
-body h3 {
+body h3,
+body h4 {
   font-family: 'Jost', sans-serif;
   font-weight: 500;
   text-align: center;
@@ -40,9 +41,11 @@ body h3 {
 body h1,
 body h2,
 body h3,
+body h4,
 body p,
+body ul,
 body img {
-  padding-bottom: 1rem;
+  padding: 1rem 0;
 }
 body p,
 body ul {
@@ -64,9 +67,24 @@ body h3 {
   color: #0971b3;
   font-size: 1.4rem;
 }
+body h4 {
+  color: #212121;
+  font-size: 1.25rem;
+  padding-top: 2rem;
+}
 body a {
   color: #ffffff;
   text-decoration: none;
+}
+body ul {
+  font-size: .8rem;
+}
+body ul li {
+  padding-bottom: .25rem;
+}
+body ul li i {
+  color: #2ea7f4;
+  padding-right: 1rem;
 }
 body img {
   padding-top: 1rem;
@@ -190,17 +208,29 @@ body main section:nth-child(2) img:nth-child(3) {
   display: none;
 }
 body main section {
-  padding-bottom: 2rem;
-  padding-top: 2rem;
+  padding: 4rem 0 0 0;
 }
-body main section img {
+body main section p {
+  padding: 1rem 0;
+  text-align: center;
+}
+body main section section {
+  padding: 0;
+  padding-bottom: 4rem;
+}
+body main section section article img {
   text-align: center;
   width: 75%;
+}
+body main section section button {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 body main .darkSection {
   color: rgba(255, 255, 255, 0.75);
   background-color: #212121;
   margin: 0 -2rem;
+  padding: 4rem 2rem;
 }
 body main .darkSection h2 {
   color: rgba(255, 255, 255, 0.75);
@@ -210,7 +240,8 @@ body main .darkSection figure:nth-child(3) {
   display: none;
 }
 body main .darkSection figure figcaption {
-  padding: 0 2rem;
+  padding: 0 1rem;
+  text-align: center;
 }
 body main .darkSection .carouselCircles {
   margin: 0 auto;
@@ -232,18 +263,45 @@ main header {
   margin-left: -2rem;
   padding: 1.5rem 0 3rem 0;
 }
-main section article ul {
-  font-size: 1.2rem;
+main .eventSection:nth-of-type(odd) {
+  background-color: #ffffff;
 }
-main section article ul i {
-  color: #2ea7f4;
-  padding-right: 1rem;
+main .eventSection:nth-of-type(even) {
+  background-color: rgba(9, 113, 175, 0.07);
 }
-main section .event02,
-main section .event03,
-main section .event05,
-main section .event06 {
-  display: none;
+main .eventSection {
+  margin: 0 -2rem;
+  padding: 2rem;
+}
+main .eventSection .event {
+  padding: 0;
+}
+main .eventSection .event p {
+  padding-left: 0;
+  padding-right: 0;
+}
+main section article {
+  padding-bottom: 2rem;
+}
+main section article table {
+  font-size: .8rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+main section article table tr th:first-of-type,
+main section article table tr .na {
+  color: transparent;
+}
+main section article table tr td:first-of-type,
+main section article table tr th {
+  font-weight: 700;
+  padding: 0;
+}
+main section article table tr th {
+  text-align: left;
+}
+main section article table tr td {
+  padding: .5rem .25rem;
 }
 /* REGISTER & CONTACT PAGES */
 main section form {
@@ -293,7 +351,7 @@ main section form button {
   border: none;
   border-radius: 0;
   box-shadow: none;
-  margin-top: 1rem;
+  margin: 2rem auto;
 }
 /* FAQs PAGE */
 main section article aside {
@@ -329,16 +387,22 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
   body header {
     padding-top: 45rem;
   }
+  body .altHeader {
+    height: 7.5rem;
+  }
   body footer {
     padding-top: 6rem;
   }
   /* HOME PAGE */
   body main section {
-    padding-bottom: 4rem;
-    padding-top: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
-  body main section img {
+  body main section section article img {
     width: 70%;
+  }
+  body main section section button {
+    width: 33%;
   }
   body main .darkSection {
     margin: 0 -6rem;
@@ -352,6 +416,7 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
   body main .socialMedia {
     display: block;
     margin: 0 -6rem;
+    padding: 4rem 3rem;
   }
   body main .socialMedia article {
     text-align: center;
@@ -365,12 +430,13 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
     margin-left: -6rem;
     padding-top: 1rem;
   }
-  main section article ul {
-    padding-left: 3rem;
+  main .eventSection {
+    margin: 0 -6rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
   /* REGISTER & CONTACT PAGES */
   main section form button {
-    margin-top: 2rem;
     width: 50%;
   }
   /* FAQs PAGE */
@@ -392,6 +458,9 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
     font-size: .9rem;
     margin: 0 auto;
     width: 40%;
+  }
+  body .altHeader {
+    height: 5rem;
   }
   body nav {
     right: 0;
@@ -449,31 +518,33 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
   body main section:nth-child(2) img:nth-child(3) {
     display: inline;
   }
-  body main .section section h2 {
-    padding-bottom: 2rem;
+  body main section p {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
-  body main .section section article {
+  body main section section article {
     padding-bottom: 2rem;
     text-align: center;
   }
-  body main .section section article img {
+  body main section section article img {
     display: inline-block;
     padding: .5rem;
-    width: 30%;
+    width: 32%;
   }
-  body main .section section button {
-    margin-top: 2rem;
+  body main section section button {
+    margin-bottom: 2rem;
+    margin-top: 0;
     width: 40%;
   }
-  body main .section section button:hover {
+  body main section section button:hover {
     background-color: transparent;
     color: #2ea7f4;
     transition: .5s;
   }
-  body main .section section:first-of-type {
+  body main section section:first-of-type {
     padding-right: 2rem;
   }
-  body main .section section:last-of-type {
+  body main section section:last-of-type {
     padding-left: 2rem;
   }
   body main .darkSection {
@@ -503,20 +574,40 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
   /* MULTISPORTS PAGE */
   main header {
     padding-top: 1rem;
+    height: 5.5rem;
   }
   main section h3:last-of-type {
     padding-bottom: 2rem;
   }
-  main section .event02,
-  main section .event03,
-  main section .event05,
-  main section .event06 {
-    display: inline-block;
+  main section article table {
+    font-size: 1rem;
+    margin-bottom: 3rem;
   }
-  main section .event img {
+  main section article table tr th {
+    padding: 1rem 1rem;
+  }
+  main section article table tr td {
+    padding: .75rem 1rem;
+  }
+  main .eventSection {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  main .eventSection .event {
+    padding: 0 2rem;
+  }
+  main .eventSection .event img {
     width: 15rem;
   }
+  main .eventSection:last-of-type p {
+    padding: 1rem 10rem;
+  }
   /* REGISTER & CONTACT PAGES */
+  main section ul {
+    font-size: .9rem;
+    margin: 0 auto;
+    width: 45%;
+  }
   main section form {
     margin: 0 auto;
     width: 50%;
@@ -526,24 +617,33 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
     transition: .5s;
   }
   /* FAQs PAGE */
-  main section article aside {
+  main section .faq {
+    padding: 0;
+  }
+  main section .faq aside {
     border: 1px solid #bebdbb;
     border-top: none;
     padding-left: 1rem;
   }
-  main section article aside i {
+  main section .faq aside i {
     padding-left: 5rem;
   }
-  main section article .first {
+  main section .faq .first {
     border-top: 1px solid #bebdbb;
   }
-  main section article .question:hover {
+  main section .faq .question:hover {
     background-color: #f0f0ef;
     transition: .5s;
   }
-  main section article .answer {
+  main section .faq .answer {
     background-color: rgba(240, 240, 240, 0.3);
     padding: 2rem;
     padding-bottom: 1rem;
+  }
+  main section .faq .answer ul {
+    width: 75%;
+  }
+  main section .faq:last-of-type {
+    padding-bottom: 4rem;
   }
 }
