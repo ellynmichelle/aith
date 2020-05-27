@@ -24,7 +24,7 @@
     </section>
 
     <article class="weatherFeed">
-        [ placeholder for weather feed ]
+        <a class="weatherwidget-io" href="https://forecast7.com/en/45d52n122d68/portland/" data-label_1="PORTLAND" data-label_2="WEATHER" data-mode="Forecast" data-theme="weather_one" >PORTLAND WEATHER</a>
     </article>
 
     <small>
