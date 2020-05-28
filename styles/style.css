@@ -416,15 +416,23 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
   }
   body main .socialMedia {
     display: block;
-    margin: 0 -6rem;
+    margin: 0 auto;
     padding: 4rem 3rem;
   }
   body main .socialMedia article {
+    background-color: #f0f0ef;
+    border: 1px solid #212121;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: block;
+    height: 545px;
     text-align: center;
+    margin: 0 auto;
+    padding-top: 1.25rem;
+    width: 375px;
   }
-  body main .socialMedia article i {
-    font-size: 4rem;
-    padding: 1rem;
+  body main .socialMedia article:first-of-type {
+    margin-bottom: 1rem;
+    margin-top: 3rem;
   }
   /* MULTISPORTS PAGE */
   main header {
@@ -510,7 +518,8 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
   }
   body footer .weatherFeed {
     display: block;
-    text-align: center;
+    padding-top: 3rem;
+    width: 45%;
   }
   /* HOME PAGE */
   body main section:nth-child(1) img:nth-child(2),
@@ -571,6 +580,13 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
   }
   body main .darkSection .carouselCircles {
     width: 25%;
+  }
+  body main .socialMedia article {
+    width: 50%;
+  }
+  body main .socialMedia article:nth-of-type(2) {
+    border-left: none;
+    margin-top: 3rem;
   }
   /* MULTISPORTS PAGE */
   main header {

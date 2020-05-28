@@ -56,17 +56,13 @@
             </article>
         </section>
 
-        <section class="socialMedia">
-            <h2>Check Out Our Social Media Feed</h2>
-            <article>
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-twitter-square"></i>
-            </article>
-            <article>
+        <section class="socialMedia section group">
+            <h2>Check In with Our Socials</h2>
+            <article class="col span_6_of_12">
                 <div class="fb-page" data-href="https://www.facebook.com/Cas222Aceinthehole-110661963841617/" data-tabs="timeline" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Cas222Aceinthehole-110661963841617/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Cas222Aceinthehole-110661963841617/">Cas222Aceinthehole</a></blockquote></div>
             </article>
-            <article>
-                <a class="twitter-timeline" href="https://twitter.com/pcccas222?ref_src=twsrc%5Etfw">Tweets by pcccas222</a> 
+            <article class="col span_6_of_12">
+                <a class="twitter-timeline" data-width="340" data-height="500" href="https://twitter.com/pcccas222?ref_src=twsrc%5Etfw">Tweets by pcccas222</a> 
             </article>
         </section>
     

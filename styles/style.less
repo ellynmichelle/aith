@@ -423,14 +423,22 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
             }
             .socialMedia {
                 display: block;
-                margin: 0 -6rem;
+                margin: 0 auto;
                 padding: 4rem 3rem;
                 article {
+                    background-color: @lightenGreyColor;
+                    border: 1px solid @darkColor;
+                    border: 1px solid rgba(0, 0, 0, .2);
+                    display: block;
+                    height: 545px;
                     text-align: center;
-                    i {
-                        font-size: 4rem;
-                        padding: 1rem;
-                    }
+                    margin: 0 auto;
+                    padding-top: 1.25rem;
+                    width: 375px;
+                }
+                article:first-of-type {
+                    margin-bottom: 1rem;
+                    margin-top: 3rem;
                 }
             }
         }
@@ -547,7 +555,8 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
             }
             .weatherFeed {
                 display: block;
-                text-align: center;
+                padding-top: 3rem;
+                width: 45%;
             }
         }
     } 
@@ -618,8 +627,11 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
             }
             .socialMedia {
                 article {
-                    i {
-                    }
+                    width: 50%;
+                }
+                article:nth-of-type(2) {
+                    border-left: none;
+                    margin-top: 3rem;
                 }
             }
         }
