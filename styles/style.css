@@ -305,6 +305,9 @@ main section article table tr td {
   padding: .5rem .25rem;
 }
 /* REGISTER & CONTACT PAGES */
+main .success {
+  padding-bottom: 3rem;
+}
 main section form {
   padding: 1rem 0;
 }

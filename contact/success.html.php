@@ -7,9 +7,9 @@
                 <h2>H2 Heading</h2>
         </header>
 
-        <section>
-            <h3>Thank your for contacting us!</h3>
-            <p>Small kitty warm kitty little balls of fur cat jumps and falls onto the couch purrs and wakes up in a new dimension filled with kitty litter.</p>
+        <section class="success">
+            <h3>Thank you for contacting us!</h3>
+            <p>We will read your message as soon as we can and respond promptly.</p>
         </section>
     
     </main>

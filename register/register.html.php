@@ -9,7 +9,7 @@
 
         <section>
             <h3>Athlete and Volunteer Registration</h3>
-            <p>All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. Packet pick up hours: Thursday 8-5, Friday 9-noon. No day of event packet pick up.</p>
+            <p>All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR.<br>Packet pick up hours: Thursday 8-5, Friday 9-noon.<br>No day of event packet pick up.</p>
             <p>COURSE DETAILS WATER TEMPERATURE is expected to be between 62 &amp; 66 degrees. The temperature will be taken on Friday and the morning of the race. Wetsuits are recommended.</p>
             <h3>Cost Includes</h3>
             <ul>
@@ -40,46 +40,43 @@
                 <label for="emergencyNumber">Emergency Contact Phone Number:</label>
                 <input type="tel" id="emergencyNumber" name="emergencyNumber"><br>
                 <label for="satRole">Role for Saturday:</label>
+                <select name="satRole" id="satRole">
+                    <option></option>
+                    <option value="athlete">Athlete</option>
+                    <option value="volunteer">Volunteer</option>
+                    <option value="na">Not attending Saturday</option>
+                </select><br>
+                <label for="satEvent">Saturday Event:</label>
+                <select name="satEvent" id="satEvent">
+                    <option></option>
+                    <option value="longCourse">Long Course Triathlon</option>
+                    <option value="10k">10k</option>
+                    <option value="half">Half Marathon </option>
+                    <option value="olympic">Olympic Triathlon</option>
+                    <option value="none">None</option>
+                </select><br>
+                <label for="sunRole">Role for Sunday:</label>
+                <select name="sunRole" id="sunRole">
+                    <option></option>
+                    <option value="athlete">Athlete</option>
+                    <option value="volunteer">Volunteer</option>
+                    <option value="na">Not attending Saturday</option>
+                </select><br>
+                <label for="sunEvent">Sunday Event:</label>
+                <select name="sunEvent" id="sunEvent">
+                    <option></option>
+                    <option value="sprint">Sprint Triathlon</option>
+                    <option value="tryatri">Try-a-Tri</option>
+                    <option value="splash">Splash n' Dash</option>
+                    <option value="none">None</option>
+                <label for="splashChild">Do you want to register a child for the Splash n' Dash on Sunday? (Free for one child with Adult Registration or $25 for child)</label>
                 <article>
-                    <input type="radio" id="athlete" name="satRole" value="athlete">
-                    <label for="athlete">Athlete</label><br>
-                    <input type="radio" id="volunteer" name="satRole" value="volunteer">
-                    <label for="volunteer">Volunteer</label><br>
-                    <input type="radio" id="na" name="satRole" value="na">
-                    <label for="na">Not Attending</label><br>
-                </article>
-                <label for="satEvent">Saturday Events:</label>
-                <article>
-                    <input type="radio" id="longCourse" name="satEvent" value="longCourse">
-                    <label for="longCourse">7:00am Long Course Triathlon $240</label><br>
-                    <input type="radio" id="10k" name="satEvent" value="10k">
-                    <label for="10k">7:15am 10k $50</label><br>
-                    <input type="radio" id="half" name="satEvent" value="half">
-                    <label for="half">7:15am Half Marathon $75</label><br>
-                    <input type="radio" id="olympic" name="satEvent" value="olympic">
-                    <label for="olympic">7:30am Olympic Triathlon $110</label><br>
-                    <input type="radio" id="none" name="satEvent" value="none">
-                    <label for="none">None</label><br>
-                </article>
-                <label for="satRole">Role for Sunday:</label>
-                <article>
-                    <input type="radio" id="athlete" name="sunRole" value="athlete">
-                    <label for="athlete">Athlete</label><br>
-                    <input type="radio" id="volunteer" name="sunRole" value="volunteer">
-                    <label for="volunteer">Volunteer</label><br>
-                    <input type="radio" id="na" name="sunRole" value="na">
-                    <label for="na">Not Attending</label><br>
-                </article>
-                <label for="sunEvent">Sunday Events:</label>
-                <article>
-                    <input type="radio" id="sprint" name="sunEvent" value="sprint">
-                    <label for="sprint">8:00am Sprint Triathlon $90</label><br>
-                    <input type="radio" id="tryatri" name="sunEvent" value="tryatri">
-                    <label for="tryatri">8:20am Try-a-Tri $65</label><br>
-                    <input type="radio" id="splashndash" name="sunEvent" value="splashndash">
-                    <label for="splashndash">12:00pm Splash n Dash Free with Adult Registration or $25</label><br>
-                    <input type="radio" id="none" name="sunEvent" value="none">
-                    <label for="none">None</label><br>
+                    <input type="radio" id="childWithAdult" name="splashChild" value="childWithAdult">
+                    <label for="childWithAdult">Child with Adult Registration</label><br>
+                    <input type="radio" id="childWithoutAdult" name="splashChild" value="childWithoutAdult">
+                    <label for="childWithoutAdult">Single Child without Adult Registration ($25)</label><br>
+                    <input type="radio" id="noChild" name="splashChild" value="noChild">
+                    <label for="noChild">I'm not registering a child</label><br>
                 </article>
                 <label for="comment">Comments:</label>
                 <textarea name="comment">Please list any special accommodations that might be needed.</textarea>

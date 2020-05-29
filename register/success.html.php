@@ -7,9 +7,9 @@
                 <h2>H2 Heading</h2>
         </header>
 
-        <section>
+        <section class="success">
             <h3>Thank your for registering!</h3>
-            <p>Small kitty warm kitty little balls of fur cat jumps and falls onto the couch purrs and wakes up in a new dimension filled with kitty litter.</p>
+            <p>Please pick up your registration packet on Thursday (8-5) or Friday (9-noon) before the event!</p>
         </section>
     
     </main>

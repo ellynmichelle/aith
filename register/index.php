@@ -15,6 +15,7 @@
         $satEvent = $_POST['satEvent'];
         $sunRole = $_POST['sunRole'];
         $sunEvent = $_POST['sunEvent'];
+        $splashChild = $_POST['splashChild'];
         $comment = $_POST['comment'];
 
         // And run the try/catch to attempt to insert data in the database. Modify the INSERT statement to write all the form filed values (except the honeypot) to the database.
@@ -30,6 +31,7 @@
               satEvent = :satEvent,
               sunRole = :sunRole,
               sunEvent = :sunEvent,
+              splashChild = :splashChild,
               comment = :comment';
             $s = $pdo->prepare($sql);
             $s->bindValue(':fullName', $fullName);
@@ -42,6 +44,7 @@
             $s->bindValue(':satEvent', $satEvent);
             $s->bindValue(':sunRole', $sunRole);
             $s->bindValue(':sunEvent', $sunEvent);
+            $s->bindValue(':splashChild', $splashChild);
             $s->bindValue(':comment', $comment);
             $s->execute();
         } catch (PDOException $e) {

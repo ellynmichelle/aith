@@ -25,7 +25,7 @@
                 <p>You must finish the race with your bib number on the front of you. Some people choose to pin it on at the beginning of the race and have it on for the whole event so they don't have to worry about it. Others pin it on a singlet that they put on once they finish the swim before they head out for the bike. Others use an elastic racing strap that they pin their bib number to and then quickly strap it on before they leave for the run. Use whatever option feels best for you.</p>
             </article>
             <article>
-                <h3>Schedule</h3>
+                <h3>Schedule & Pricing</h3>
                 <table>
                     <tr>
                         <th>Start Time</th>
@@ -34,33 +34,33 @@
                     </tr>
                     <tr>
                         <td>7:00am</td>
-                        <td>Long Course Triathlon</td>
+                        <td>Long Course Triathlon<br>$240</td>
                         <td class="na">n/a</td>
                     </tr>
                     <tr>
                         <td>7:15am</td>
-                        <td>10k<br>Half Marathon</td>
+                        <td>10k<br>$50<br>Half Marathon<br>$75</td>
                         <td class="na">n/a</td>
                     </tr>
                     <tr>
                         <td>7:30am</td>
-                        <td>Olympic Triathlon</td>
+                        <td>Olympic Triathlon<br>$110</td>
                         <td class="na">n/a</td>
                     </tr>
                     <tr>
                         <td>8:00am</td>
                         <td class="na">n/a</td>
-                        <td>Sprint Triathlon</td>
+                        <td>Sprint Triathlon<br>$90</td>
                     </tr>
                     <tr>
                         <td>8:20am</td>
                         <td class="na">n/a</td>
-                        <td>Try-a-Tri</td>
+                        <td>Try-a-Tri<br>$65</td>
                     </tr>
                     <tr>
                         <td>12:00pm</td>
                         <td class="na">n/a</td>
-                        <td>Splash n' Dash</td>
+                        <td>Splash n' Dash<br>Free with Adult Registration<br>$25 for single child</td>
                     </tr>
                 </table>
             </article>
