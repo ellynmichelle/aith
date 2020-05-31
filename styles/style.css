@@ -105,8 +105,8 @@ body header {
   background-attachment: fixed;
   background-position: center top;
   background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 28rem;
+  background-size: auto 850px;
+  padding-top: 25rem;
   height: 100vh;
   width: 100vw;
 }
@@ -402,6 +402,7 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
     font-size: 1.5rem;
   }
   body header {
+    background-size: auto 1400px;
     padding-top: 45rem;
   }
   body .altHeader {
@@ -474,6 +475,7 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
     font-size: 18px;
   }
   body header {
+    background-size: cover;
     padding-top: 35rem;
   }
   body header p {
