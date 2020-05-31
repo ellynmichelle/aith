@@ -69,17 +69,17 @@
         <section class="section group eventSection">
             <h3>Long Course</h3>
             <article class="col span_4_of_12 event">
-                <img src="../images/circle10.png" alt="">
+                <img src="../images/circle10.png" alt="The start to the Long Course Swim. Many competitors running into the water.">
                 <h4>Long Course Swim - 1.2 miles</h4>
                 <p>Participants will make two counter-clockwise loops. Large buoys will mark the turn points. Kayakers will be positioned on the water to support the swimmers. Medical support will be present on the beach. </p>
             </article>
             <article class="col span_4_of_12 event">
-                <img src="../images//circle08.png" alt="">
+                <img src="../images//circle08.png" alt="The Long Course Bike in progress. Four competitors are shown here.">
                 <h4>Long Course Bike - 58 miles</h4>
                 <p>A scenic point-to-point course that travels over gently rolling hills prior to three hard climbs. The bike course will be marked with large directional signage and there will be course marshals at key intersections to help direct you.</p>
             </article>
             <article class="col span_4_of_12 event">
-                <img src="../images//circle09.png" alt="">
+                <img src="../images//circle09.png" alt="The Long Course Run in progress. Three competitors highlighted here.">
                 <h4>Long Course Run - 13.1 miles</h4>
                 <p>A mostly flat loop course on widely paved bike paths that traverse through and around this beautiful and scenic destination resort (two hills total with a minimal elevation gain).</p>
             </article>
@@ -88,17 +88,17 @@
         <section class="section group eventSection">
             <h3>Olympic</h3>
             <article class="col span_4_of_12 event">
-                <img src="../images//circle07.png" alt="">
+                <img src="../images//circle07.png" alt="The Olympic Swim. A group of people running into the water.">
                 <h4>Olympic Swim - 1,500 meters</h4>
                 <p>Participants will make two counter-clockwise loops. Large buoys will mark the turn points. Kayakers will be positioned on the water to support the swimmers. Medical support will be present on the beach.</p>
             </article>
             <article class="col span_4_of_12 event">
-                <img src="../images//circle11.png" alt="">
+                <img src="../images//circle11.png" alt="A backlit photo of a person riding their bike in the Olympic Bike.">
                 <h4>Olympic Bike - 28 miles</h4>
                 <p>A scenic point-to-point course that travels over gently rolling hills. The bike course will be marked with large directional signage and course marshals will be present at key intersections.</p>
             </article>
             <article class="col span_4_of_12 event">
-                <img src="../images//circle12.png" alt="">
+                <img src="../images//circle12.png" alt="a woman running in the Olympic Run. She has other competitors behind her.">
                 <h4>Olympic Run - 10k</h4>
                 <p>A mostly flat loop course on widely paved bike paths that traverse through and around this beautiful and scenic destination resort (one hill total with a minimal elevation gain).</p>
             </article>
@@ -107,12 +107,12 @@
         <section class="section group eventSection">
             <article class="col span_6_of_12 event">
                 <h3>Sprint</h3>
-                <img src="../images//circle16.png" alt="">
+                <img src="../images//circle16.png" alt="A man competing in the Sprint. He is swimming.">
                 <p>Course will offer a 1-loop 1/2 mile swim, the exact same 28 mile Bike Course as the Olympic distance and a 5km run.</p>
             </article>
             <article class="col span_6_of_12 event">
                 <h3>Try-A-Tri</h3>
-                <img src="../images//circle13.png" alt="">
+                <img src="../images//circle13.png" alt="A woman running down a dirt road in the Try-a_Tri.">
                 <p>This novice race is designed for the first time triathlete, those new to the sport, our Junior Triathletes. The swim is a shorter, more manageable 1/4 mile distance, (instead of the standard 1/2-mile Sprint distance swim), 10 mile bike ride (vs 12 miles and it's a 2 loop course making it very spectator friendly!) and a flat 2 mile run (vs 3 mile sprint course).</p>
             </article>
         </section>
@@ -120,12 +120,12 @@
         <section class="section group eventSection">
             <article class="col span_6_of_12 event">
                 <h3>Half Marathon Course</h3>
-                <img src="../images//circle14.png" alt="">
+                <img src="../images//circle14.png" alt="A massive group of people running in the Half-Marathon down the city streets.">
                 <p>Half-Marathon (13.1 miles) event starts and finishes in the Athletes Village to the cheers of the enthusiastic crowd. Once finished, runners can enjoy the finish line festivities, including the Sports &amp; Fitness Expo and live entertainment. Post-race refreshments will be provided and the Awards Ceremony for the Half-Marathon will begin once the results have been certified </p>
             </article>
             <article class="col span_6_of_12 event">
                 <h3>10k Course</h3>
-                <img src="../images/circle06.png" alt="">
+                <img src="../images/circle06.png" alt="An aerial shot of a massive group of people running in the 10k Course.">
                 <p>The 10K event starts and finishes in the Athletes Village. The paths are approximately 6 ft wide, perfectly paved and wind around through the forest. Each course has only two small hills with a minimal elevation gain to navigate and a fast downhill to flat finish to the roaring cheers of the crowd.</p>
             </article>
         </section>
@@ -133,7 +133,7 @@
         <section class="section group eventSection">
             <h3>Splash n' Dash</h3>
             <article class="col span_12_of_12 event">
-                <img src="../images//circle15.png" alt="">
+                <img src="../images//circle15.png" alt="A child competing in the kids' Splash n' Dash.">
                 <p>Kids event for participants ages 4 to 15. This is a 100 yard swim and a 50 yard dash. It is free if an adult registers for an event otherwise it is $25.</p>
             </article>
         </section>
