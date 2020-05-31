@@ -13,11 +13,11 @@
     <section class="section group">
         <article class="col span_4_of_12">
             <h2>Find Out More</h2>
-            <p>Find out more about our annual <a href="/multisport">Multisports Event</a>.</p>
+            <p>Find out more about our annual <a href="../multisport">Multisports Event</a>.</p>
         </article>
         <article class="col span_4_of_12">
             <h2>Get Involved</h2>
-            <p>Consider becoming an Ace in the Hole volunteer. <a href="register">Register</a> now.</p>
+            <p>Consider becoming an Ace in the Hole volunteer. <a href="../register">Register</a> now.</p>
         </article>
         <article class="col span_4_of_12">
             <h2>Connect</h2>

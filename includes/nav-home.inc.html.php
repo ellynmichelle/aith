@@ -1,4 +1,4 @@
-<?php define('BASE_URL', '/cas222/template/'); ?>
+<?php define('BASE_URL', '/cas222/aith/'); ?>
 
 <nav>
     <i class="fas fa-bars"></i>
