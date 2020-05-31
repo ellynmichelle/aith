@@ -321,6 +321,9 @@ main .success {
 main section form {
   padding: 1rem 0;
 }
+main section form #honeypot {
+  display: none;
+}
 main section form input,
 main section form textarea {
   background-color: #f0f0ef;

@@ -47,12 +47,6 @@
                     <figcaption>"The Multisport Weekend is a great excuse to make and meet my athletic goals."</figcaption>
                 </figure>
             </article>
-            <article class="carouselCircles">
-                <i class="fas fa-circle"></i>
-                <i class="fas fa-circle"></i>
-                <i class="fas fa-circle"></i>
-                <i class="fas fa-circle"></i>
-            </article>
         </section>
 
         <section class="socialMedia section group">

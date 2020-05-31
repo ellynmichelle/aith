@@ -20,14 +20,16 @@
                 <li><i class="fas fa-angle-right"></i>Ace in the Hole Multisport Weekend Tech Shirt</li>
                 <li><i class="fas fa-angle-right"></i>Post-event party &amp; entertainment</li>
             </ul>
-            <p>NOTE: Tech shirts guaranteed to pre-registered participants only. </p>
+            <p>NOTE: Tech shirts guaranteed to pre-registered participants only.</p>
+            <p>*Required fields are marked with an asterisk</p>
             <form method="post" action=" ">
-                <label for="fullName">Name:</label>
-                <input type="text" id="fullName" name="fullName"><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email"><br>
-                <label for="age">Age:</label>
-                <input type="text" id="age" name="age"><br>
+                <input type="text" name="honeypot" id="honeypot" value="" alt="if you fill this field out then your email will not be sent"/>
+                <label for="fullName">*Name:</label>
+                <input type="text" id="fullName" name="fullName" required><br>
+                <label for="email">*Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="age">*Age:</label>
+                <input type="text" id="age" name="age" required><br>
                 <label for="gender">Gender Identification:</label>
                 <select name="gender" id="gender">
                     <option></option>
@@ -35,19 +37,19 @@
                     <option value="male">Male</option>
                     <option value="other">Non-binary/Other</option>
                 </select><br>
-                <label for="emergencyContact">Emergency Contact Name:</label>
-                <input type="text" id="emergencyContact" name="emergencyContact"><br>
-                <label for="emergencyNumber">Emergency Contact Phone Number:</label>
-                <input type="tel" id="emergencyNumber" name="emergencyNumber"><br>
-                <label for="satRole">Role for Saturday:</label>
-                <select name="satRole" id="satRole">
+                <label for="emergencyContact">*Emergency Contact Name:</label>
+                <input type="text" id="emergencyContact" name="emergencyContact" required><br>
+                <label for="emergencyNumber">*Emergency Contact Phone Number:</label>
+                <input type="tel" id="emergencyNumber" name="emergencyNumber" required><br>
+                <label for="satRole">*Role for Saturday:</label>
+                <select name="satRole" id="satRole" required>
                     <option></option>
                     <option value="athlete">Athlete</option>
                     <option value="volunteer">Volunteer</option>
                     <option value="na">Not attending Saturday</option>
                 </select><br>
-                <label for="satEvent">Saturday Event:</label>
-                <select name="satEvent" id="satEvent">
+                <label for="satEvent">*Saturday Event:</label>
+                <select name="satEvent" id="satEvent" required>
                     <option></option>
                     <option value="longCourse">Long Course Triathlon</option>
                     <option value="10k">10k</option>
@@ -55,15 +57,15 @@
                     <option value="olympic">Olympic Triathlon</option>
                     <option value="none">None</option>
                 </select><br>
-                <label for="sunRole">Role for Sunday:</label>
-                <select name="sunRole" id="sunRole">
+                <label for="sunRole">*Role for Sunday:</label>
+                <select name="sunRole" id="sunRole" required>
                     <option></option>
                     <option value="athlete">Athlete</option>
                     <option value="volunteer">Volunteer</option>
                     <option value="na">Not attending Saturday</option>
                 </select><br>
-                <label for="sunEvent">Sunday Event:</label>
-                <select name="sunEvent" id="sunEvent">
+                <label for="sunEvent">*Sunday Event:</label>
+                <select name="sunEvent" id="sunEvent" required>
                     <option></option>
                     <option value="sprint">Sprint Triathlon</option>
                     <option value="tryatri">Try-a-Tri</option>
@@ -80,7 +82,7 @@
                     <label for="noChild">I'm not registering a child</label><br>
                 </article>
                 <label for="comment">Comments:</label>
-                <textarea name="comment">Please list any special accommodations that might be needed.</textarea>
+                <textarea name="comment" onfocus="this.value = '';">Please list any special accommodations that might be needed.</textarea>
                 <button>Submit</button>
             </form>
         </section>

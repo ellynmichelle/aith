@@ -2,8 +2,10 @@
 
     include '../includes/db.inc.html.php';
 
+    $honeypot = $_POST['honeypot'];
+
     // Modify the If statement so the try only runs if the First Name field has been submitted AND the honeypot field is empty ''
-    if (isset($_POST['fullName'])) {
+    if (isset($_POST['fullName']) && empty($honeypot)) {
         // If the if statement is true, save each form field value as a variable. These variable values will be used in the thank you page.
         $fullName = $_POST['fullName'];
         $email = $_POST['email'];
