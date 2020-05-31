@@ -69,6 +69,7 @@
                     <option value="tryatri">Try-a-Tri</option>
                     <option value="splash">Splash n' Dash</option>
                     <option value="none">None</option>
+                </select><br>
                 <label for="splashChild">Do you want to register a child for the Splash n' Dash on Sunday? (Free for one child with Adult Registration or $25 for child)</label>
                 <article>
                     <input type="radio" id="childWithAdult" name="splashChild" value="childWithAdult">

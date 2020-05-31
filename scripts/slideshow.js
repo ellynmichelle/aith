@@ -29,9 +29,9 @@ $(document).ready(function() {
     header.css("background-image","url("+images[count]+")");
 
     setInterval(function() {
-        header.fadeOut(500, function() {
+        header.fadeOut(400, function() {
         header.css("background-image","url("+images[count++]+")");
-        header.fadeIn(500);
+        header.fadeIn(400);
     });
 
     if(count == images.length) {

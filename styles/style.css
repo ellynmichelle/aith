@@ -41,11 +41,8 @@ body h4 {
 body h1,
 body h2,
 body h3,
-body h4,
-body p,
-body ul,
-body img {
-  padding: 1rem 0;
+body h4 {
+  margin: 1rem 0;
 }
 body p,
 body ul {
@@ -60,20 +57,23 @@ body h1 {
   font-size: 1.5rem;
 }
 body h2 {
-  color: #a10219;
+  color: #ffffff;
   font-size: 1.5rem;
 }
 body h3 {
-  color: #0971b3;
+  color: #2ea7f4;
   font-size: 1.4rem;
+  padding-bottom: .5rem;
+  text-transform: none;
 }
 body h4 {
-  color: #212121;
+  color: #2e2e2e;
   font-size: 1.25rem;
   padding-top: 2rem;
+  text-transform: none;
 }
 body a {
-  color: #cc0000;
+  color: #e60000;
   font-weight: 700;
   text-decoration: none;
 }
@@ -84,28 +84,28 @@ body ul li {
   padding-bottom: .25rem;
 }
 body ul li i {
-  color: #2ea7f4;
+  color: #e60000;
   padding-right: 1rem;
 }
 body img {
-  padding-top: 1rem;
+  padding: 1rem 0;
 }
 body button {
   font-family: 'Jost', sans-serif;
-  border: 2px solid #2ea7f4;
+  border: 3px solid #e60000;
   border-radius: 10rem;
-  background-color: #2ea7f4;
+  background-color: #e60000;
   color: #ffffff;
   font-size: 1.25rem;
   padding: .5rem 0;
-  width: 60%;
+  width: 12rem;
 }
 body header {
+  background-color: #212121;
   background-attachment: fixed;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #212121;
   padding-top: 28rem;
   height: 100vh;
   width: 100vw;
@@ -170,7 +170,7 @@ body nav img {
   z-index: 90;
 }
 body footer {
-  background-color: #f0f0ef;
+  background-color: #2e2e2e;
   color: #212121;
   padding-top: 4rem;
 }
@@ -179,9 +179,12 @@ body footer article {
 }
 body footer article h1,
 body footer article h2 {
-  color: #043452;
+  color: #ffffff;
   padding-bottom: 1rem;
   text-align: left;
+}
+body footer article p {
+  color: #f0f0ef;
 }
 body footer article i {
   font-size: 4rem;
@@ -194,7 +197,8 @@ body footer small {
   font-size: .75rem;
 }
 body footer small p {
-  color: #8c8a87;
+  color: #73716d;
+  padding-bottom: 1rem;
   padding-top: 4rem;
   text-align: center;
 }
@@ -208,12 +212,18 @@ body main section:nth-child(1) img:nth-child(3),
 body main section:nth-child(2) img:nth-child(3) {
   display: none;
 }
+body main h2 {
+  color: #e60000;
+}
 body main section {
   padding: 4rem 0 0 0;
 }
 body main section p {
   padding: 1rem 0;
   text-align: center;
+}
+body main section button {
+  margin-top: 2rem;
 }
 body main section section {
   padding: 0;
@@ -222,10 +232,6 @@ body main section section {
 body main section section article img {
   text-align: center;
   width: 75%;
-}
-body main section section button {
-  margin-bottom: 1rem;
-  margin-top: 1rem;
 }
 body main .darkSection {
   color: rgba(255, 255, 255, 0.75);
@@ -258,17 +264,16 @@ body main .socialMedia {
 }
 /* MULTISPORTS PAGE */
 main header {
-  background-color: #f0f0ef;
   background-image: url("");
   height: 2rem;
   margin-left: -2rem;
-  padding: 1.5rem 0 3rem 0;
+  padding: 1.5rem 0 4rem 0;
 }
 main .eventSection:nth-of-type(odd) {
   background-color: #ffffff;
 }
 main .eventSection:nth-of-type(even) {
-  background-color: rgba(9, 113, 175, 0.07);
+  background-color: #f0f0ef;
 }
 main .eventSection {
   margin: 0 -2rem;
@@ -285,24 +290,29 @@ main section article {
   padding-bottom: 2rem;
 }
 main section article table {
-  font-size: .8rem;
+  font-size: .5rem;
   margin: 0 auto;
-  margin-top: 2rem;
 }
-main section article table tr th:first-of-type,
-main section article table tr .na {
-  color: transparent;
+main section article table tr th:nth-of-type(1),
+main section article table tr td:nth-of-type(1) {
+  text-align: left;
 }
-main section article table tr td:first-of-type,
+main section article table tr th:nth-of-type(2),
+main section article table tr td:nth-of-type(2) {
+  text-align: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+main section article table tr th:nth-of-type(3),
+main section article table tr td:nth-of-type(3) {
+  text-align: right;
+}
 main section article table tr th {
   font-weight: 700;
   padding: 0;
 }
-main section article table tr th {
-  text-align: left;
-}
 main section article table tr td {
-  padding: .5rem .25rem;
+  padding: .5rem 0;
 }
 /* REGISTER & CONTACT PAGES */
 main .success {
@@ -363,13 +373,13 @@ main section article aside {
 }
 main section article aside h3 {
   display: inline;
+  font-size: 1.25rem;
   text-align: left;
 }
 main section article aside i {
-  color: #212121;
+  color: #e60000;
   font-size: 1.75rem;
-  padding-left: 6rem;
-  padding-top: .75rem;
+  padding-left: .5rem;
 }
 /* TABLET STYLESHEET
 
@@ -405,9 +415,6 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
   body main section section article img {
     width: 70%;
   }
-  body main section section button {
-    width: 33%;
-  }
   body main .darkSection {
     margin: 0 -6rem;
   }
@@ -442,18 +449,18 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
     margin-left: -6rem;
     padding-top: 1rem;
   }
+  main section article table {
+    font-size: .75rem;
+  }
   main .eventSection {
     margin: 0 -6rem;
     padding-left: 4rem;
     padding-right: 4rem;
   }
   /* REGISTER & CONTACT PAGES */
-  main section form button {
-    width: 50%;
-  }
   /* FAQs PAGE */
   main section article aside i {
-    padding-left: 15rem;
+    float: right;
   }
 }
 /* DESKTOP STYLESHEET
@@ -516,8 +523,9 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
   body footer section article h2 {
     font-size: 1.25rem;
   }
-  body footer section article img {
-    width: 15%;
+  body footer section article a:hover {
+    color: #a10219;
+    transition: .5s;
   }
   body footer .weatherFeed {
     display: block;
@@ -535,6 +543,11 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
     padding-left: 3rem;
     padding-right: 3rem;
   }
+  body main section button:hover {
+    background-color: transparent;
+    color: #e60000;
+    transition: .5s;
+  }
   body main section section article {
     padding-bottom: 2rem;
     text-align: center;
@@ -543,16 +556,6 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
     display: inline-block;
     padding: .5rem;
     width: 32%;
-  }
-  body main section section button {
-    margin-bottom: 2rem;
-    margin-top: 0;
-    width: 40%;
-  }
-  body main section section button:hover {
-    background-color: transparent;
-    color: #2ea7f4;
-    transition: .5s;
   }
   body main section section:first-of-type {
     padding-right: 2rem;
@@ -596,9 +599,6 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
     padding-top: 1rem;
     height: 5.5rem;
   }
-  main section h3:last-of-type {
-    padding-bottom: 2rem;
-  }
   main section article table {
     font-size: 1rem;
     margin-bottom: 3rem;
@@ -634,6 +634,7 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
   }
   main section form button:hover {
     background-color: red;
+    color: #ffffff;
     transition: .5s;
   }
   /* FAQs PAGE */
@@ -643,10 +644,7 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
   main section .faq aside {
     border: 1px solid #bebdbb;
     border-top: none;
-    padding-left: 1rem;
-  }
-  main section .faq aside i {
-    padding-left: 5rem;
+    padding: 1rem;
   }
   main section .faq .first {
     border-top: 1px solid #bebdbb;

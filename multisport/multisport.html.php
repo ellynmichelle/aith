@@ -25,42 +25,42 @@
                 <p>You must finish the race with your bib number on the front of you. Some people choose to pin it on at the beginning of the race and have it on for the whole event so they don't have to worry about it. Others pin it on a singlet that they put on once they finish the swim before they head out for the bike. Others use an elastic racing strap that they pin their bib number to and then quickly strap it on before they leave for the run. Use whatever option feels best for you.</p>
             </article>
             <article>
-                <h3>Schedule & Pricing</h3>
+                <h3>Schedule &amp; Pricing</h3>
                 <table>
                     <tr>
-                        <th>Start Time</th>
-                        <th>Saturday</th>
-                        <th>Sunday</th>
+                        <th>Event</th>
+                        <th>Time</th>
+                        <th>Price</th>
                     </tr>
                     <tr>
-                        <td>7:00am</td>
-                        <td>Long Course Triathlon<br>$240</td>
-                        <td class="na">n/a</td>
+                        <td>Long Course Triathlon</td>
+                        <td>7:00am, Saturday</td>
+                        <td>$240</td>
                     </tr>
                     <tr>
-                        <td>7:15am</td>
-                        <td>10k<br>$50<br>Half Marathon<br>$75</td>
-                        <td class="na">n/a</td>
+                        <td>10k</td>
+                        <td>7:15am, Saturday</td>
+                        <td>$75</td>
                     </tr>
                     <tr>
-                        <td>7:30am</td>
-                        <td>Olympic Triathlon<br>$110</td>
-                        <td class="na">n/a</td>
+                        <td>Olympic Triathlon</td>
+                        <td>7:30am, Saturday</td>
+                        <td>$110</td>
                     </tr>
                     <tr>
-                        <td>8:00am</td>
-                        <td class="na">n/a</td>
-                        <td>Sprint Triathlon<br>$90</td>
+                        <td>Sprint Triathlon</td>
+                        <td>8:00am, Sunday</td>
+                        <td>$90</td>
                     </tr>
                     <tr>
-                        <td>8:20am</td>
-                        <td class="na">n/a</td>
-                        <td>Try-a-Tri<br>$65</td>
+                        <td>Try-a-Tri</td>
+                        <td>8:20am, Sunday</td>
+                        <td>$65</td>
                     </tr>
                     <tr>
-                        <td>12:00pm</td>
-                        <td class="na">n/a</td>
-                        <td>Splash n' Dash<br>Free with Adult Registration<br>$25 for single child</td>
+                        <td>Splash n' Dash</td>
+                        <td>12:00pm, Sunday</td>
+                        <td>Free with Adult Registration<br>$25 for single child</td>
                     </tr>
                 </table>
             </article>
