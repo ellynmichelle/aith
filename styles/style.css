@@ -408,6 +408,12 @@ The following CSS affects all screen sizes larger than 480 pixels wide. */
   body .altHeader {
     height: 7.5rem;
   }
+  body nav ul {
+    padding-top: 8rem;
+  }
+  body nav.navScroll i {
+    padding-bottom: 5rem;
+  }
   body footer {
     padding-top: 6rem;
   }
@@ -476,7 +482,7 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
   }
   body header {
     background-size: cover;
-    padding-top: 35rem;
+    padding-top: 32rem;
   }
   body header p {
     font-size: .9rem;
@@ -515,9 +521,10 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
   body nav img {
     left: 1rem;
     margin: 0;
+    position: absolute;
     top: 0;
     width: 10rem;
-    z-index: 110;
+    z-index: 130;
   }
   body footer {
     font-size: 16px;
