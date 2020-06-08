@@ -40,7 +40,7 @@ body {
         font-size: 1.5rem;
     }
     h3 {
-        color: @lightenColor4;
+        color: @darkColor;
         font-size: 1.4rem;
         padding-bottom: .5rem;
         text-transform: none;
@@ -55,6 +55,9 @@ body {
         color: @darkenColor1;
         font-weight: 700;
         text-decoration: none;
+    }
+    p {
+        text-align: left;
     }
     ul {
         font-size: .8rem;
@@ -117,18 +120,20 @@ body {
         .fa-times, .fa-bars {
             width: 100%;
             position: fixed;
-            z-index: 110;
+        }
+        .fa-times {
+            z-index: 125;
         }
         ul {
             background-color: @darkColor;
             font-size: 1.25rem;
             line-height: 2;
             padding-left: 1.25rem;
-            padding-top: 3.5rem;
+            padding-top: 4.5rem;
             position: fixed;
             top: 0;
             width: 100%;
-            z-index: 100;
+            z-index: 120;
             li {
                 a {
                     .colorWhiteOpacity();
@@ -140,14 +145,21 @@ body {
         }
         img {
             margin: 0 auto;
-            position: absolute;
+            position: fixed;
             right: 1rem;
             width: 50%;
-            z-index: 90;
+            z-index: 110;
+        }
+    }
+    nav.navScroll {
+        i {
+            background-color: @darkColor;
+            padding-bottom: 2rem;
+            transition: 1s;
         }
     }
     footer {
-        background-color: @lightenDarkColor;
+        background-color: @darkColor;
         color: @darkColor;
         padding-top: 4rem;
         article {
@@ -196,7 +208,6 @@ body {
             padding: 4rem 0 0 0;
             p {
                 padding: 1rem 0;
-                text-align: center;
             }
             button {
                 margin-top: 2rem;
@@ -227,15 +238,6 @@ body {
                 figcaption {
                     padding: 0 1rem;
                     text-align: center;
-                }
-            }
-            .carouselCircles {
-                margin: 0 auto;
-                padding-top: 1rem;
-                text-align: center;
-                width: 35%;
-                i {
-                    font-size: .75rem;
                 }
             }
         }
