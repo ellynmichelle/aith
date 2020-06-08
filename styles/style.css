@@ -482,7 +482,7 @@ The following CSS affects all screen sizes larger than 1024 pixels wide. */
   }
   body header {
     background-size: cover;
-    padding-top: 32rem;
+    padding-top: 35rem;
   }
   body header p {
     font-size: .9rem;
