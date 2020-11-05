@@ -4,7 +4,7 @@
     <main>
         
         <section>
-            <h2>About Ace in the Hole</h2>
+            <h3>About Ace in the Hole</h3>
             <p>Ace in the Hole Multisport Events is proud to offer running and triathlon events to athletes of all shapes and sizes, national origins, gender identifications and cultural backgrounds. We offer Events for Every Body.</p>
             <button onclick="window.location.href='<?php echo BASE_URL; ?>/register'">Register Now</button>
         </section>
